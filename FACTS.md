@@ -46,3 +46,7 @@ Omri's package rules from today's FOC-email thread, official syllabus (github.co
 
 ## Placeholders allowed in the new set
 `%FIRSTNAME%`, `%UNSUBSCRIBELINK%`, `%UPDATELINK%`, `{{session_date}}`, `{{new_session_date}}`, `{{zoom_link}}`, plus per tier: `{{cohort_close_date}}` (standard, vip) or `{{course_start_date}}` (full). `{{credit_expires_date}}` must not remain anywhere.
+
+## Blueprint cohort dates (Full Course tier, verified 2026-09-17 on longevitylifeacademy.pages.dev checkout)
+Mon Sep 21 1:00 PM · Tue Sep 22 7:00 PM · Mon Sep 28 1:00 PM · Tue Sep 29 7:00 PM · Mon Oct 12 8:00 PM · Wed Oct 14 11:00 AM · Mon Oct 19 8:00 PM · Wed Oct 21 11:00 AM · Mon Oct 26 8:00 PM · Wed Oct 28 11:00 AM (all EST).
+Most cohorts start BEFORE the masterclass dates (Oct 27 / Nov 14), so Full Course post-masterclass emails are written chronology-neutral ("your cohort runs from {{course_start_date}}"), never "your first lesson is coming".
