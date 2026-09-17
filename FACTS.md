@@ -50,3 +50,8 @@ Omri's package rules from today's FOC-email thread, official syllabus (github.co
 ## Blueprint cohort dates (Full Course tier, verified 2026-09-17 on longevitylifeacademy.pages.dev checkout)
 Mon Sep 21 1:00 PM · Tue Sep 22 7:00 PM · Mon Sep 28 1:00 PM · Tue Sep 29 7:00 PM · Mon Oct 12 8:00 PM · Wed Oct 14 11:00 AM · Mon Oct 19 8:00 PM · Wed Oct 21 11:00 AM · Mon Oct 26 8:00 PM · Wed Oct 28 11:00 AM (all EST).
 Most cohorts start BEFORE the masterclass dates (Oct 27 / Nov 14), so Full Course post-masterclass emails are written chronology-neutral ("your cohort runs from {{course_start_date}}"), never "your first lesson is coming".
+
+## PRICING STRUCTURE — FINAL (Omri, 2026-09-17 16:32)
+- Masterclass $49: no cash back. Blueprint follow-up (U1–U4) = round-one pricing exactly as V1: $1,249 upfront (from $1,800) or 5 × $279, with the $200 attendee credit valid until {{credit_expires_date}}.
+- VIP Masterclass $79: same round-one pricing and $200 credit as V1, PLUS $79 cash back as coupon code MASTERCLASS-VIP when enrolling in the Blueprint.
+- Blueprint + VIP Masterclass: 36% off the regular price = $179 × 5, first two weeks free, VIP masterclass included at no charge. Never mention $89.50.

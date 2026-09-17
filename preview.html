@@ -30,7 +30,7 @@
       <button class="btn" id="copy">Copy production HTML</button>
       <a class="btn" id="raw" href="#">Raw HTML for ActiveCampaign</a>
     </div>
-    <span class="note">Names, dates and links below are sample values so every link is clickable. The production file keeps standard ActiveCampaign tags (%FIRSTNAME%, %UNSUBSCRIBELINK%, %UPDATELINK%) plus neutral placeholders for session date, Zoom link, cohort close date and course start date that your team maps to your own fields in ActiveCampaign.</span>
+    <span class="note">Names, dates and links below are sample values so every link is clickable. The production file keeps standard ActiveCampaign tags (%FIRSTNAME%, %UNSUBSCRIBELINK%, %UPDATELINK%) plus neutral placeholders for session date, Zoom link, credit expiry date and course start date that your team maps to your own fields in ActiveCampaign.</span>
   </div>
   <iframe id="frame" title="Email preview"></iframe>
 <script>
@@ -44,7 +44,7 @@
   var SAMPLES = [
     ['%FIRSTNAME%', 'Anna'],
     ['{{session_date}}', 'Tuesday, October 27, 4:00 PM Arizona MT'],
-    ['{{cohort_close_date}}', 'October 23, 2026'],
+    ['{{credit_expires_date}}', 'November 27, 2026'],
     ['{{course_start_date}}', 'Monday, October 26, 8:00 PM (EST)'],
     ['{{new_session_date}}', 'Saturday, November 14, 10:00 AM Arizona MT'],
     ['{{zoom_link}}', 'https://www.longevitylifeacademy.com/julie-masterclass/?preview=zoom-link-sample'],
