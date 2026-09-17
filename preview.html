@@ -38,7 +38,7 @@
   var id = (new URLSearchParams(location.search).get('e') || '').replace(/[^a-z0-9\/-]/gi, '');
   if (!id) { document.getElementById('ename').textContent = 'No email selected'; return; }
   var rawUrl = 'emails/' + id + '.html';
-  document.getElementById('ename').textContent = id.replace('/', ' · ').replace('standard','Standard $49').replace('vip','VIP $79').replace('full','Full Course + VIP free');
+  document.getElementById('ename').textContent = id.replace('/', ' · ').replace('vip-masterclass','VIP Masterclass $79').replace('blueprint-vip','Blueprint + VIP Masterclass free').replace('masterclass','Masterclass $49');
   document.getElementById('back').href = './#' + id.split('/')[0];
   document.getElementById('raw').href = rawUrl;
   var SAMPLES = [

@@ -14,7 +14,7 @@ Omri's package rules from today's FOC-email thread, official syllabus (github.co
 - Blueprint price: **$179/month × 5** (36% off the standard $279/month). Launch offer on the live page: **first month 50% off = $89.50, then 4 × $179**. Enrollment closes when the cohort fills. Course carries a **14-day refund policy** (course only — NOT the masterclass).
 - BANNED everywhere: the word "tuition" for the masterclass (use "your seat is $49" / "one payment of $49"); any refund/guarantee claim for Standard or VIP masterclass seats (Omri: "there's no refund"; live page: "All sales final at checkout"); "$200 credit"; "$1,249"; "5 x $279"; "$79 is the full price / never discounted"; "$89"; "following our call".
 
-## TIER 1 — Standard · $49 (folder emails/standard/)
+## TIER 1 — Masterclass · $49 (folder emails/masterclass/)
 - Product name: The Longevity Masterclass (Standard).
 - **$49, one payment.** Regular price $79 — live page shows $79 struck through, "Save 38% · Limited seats", "Only 18 seats left at this price". So urgency copy = "$49 is the launch price while these seats last" (NOT "never discounted", NOT "price will not drop").
 - **60 minutes, live on Zoom. NO Q&A of any kind. Never mention Q&A, questions answered, "ask Julie", "face to face" in this tier.**
@@ -23,7 +23,7 @@ Omri's package rules from today's FOC-email thread, official syllabus (github.co
 - Post-masterclass funnel (u1–u4): there is NO credit for Standard attendees. Reframe the four emails as the Blueprint invitation for attendees: u1 = thank you + the Blueprint at $179 × 5 with first month 50% off ($89.50) while the cohort is open; u2 = inside the Blueprint (18 lessons, CGM, recordings); u3 = proof + the honest math ($279 standard → $179 × 5, first month $89.50); u4 = cohort enrollment closes on `{{cohort_close_date}}`. Replace every `{{credit_expires_date}}` with `{{cohort_close_date}}`. Keep headline/subject rhythm, e.g. "Thank you, %FIRSTNAME%. Your next step is now open", "Enrollment for the Blueprint closes on {{cohort_close_date}}".
 - x3 mentions "$200 course credit becomes yours" → replace with the Blueprint first-month offer or certificate, same length.
 
-## TIER 2 — VIP · $79 (folder emails/vip/)
+## TIER 2 — VIP Masterclass · $79 (folder emails/vip-masterclass/)
 - Product name: The Longevity Masterclass · VIP Experience.
 - **$79, one payment.** Effectively free if they later join the Blueprint (their $79 comes back as course credit).
 - **90 minutes live**: the full 60-minute masterclass PLUS an exclusive **30-minute live Q&A with Julie** — personal attention, ask her anything. **VIP is capped at 12 seats per session.** Same VIP treatment as students paying $299 for direct access. Priority admissions review + downloadable protocol pack.
@@ -35,7 +35,7 @@ Omri's package rules from today's FOC-email thread, official syllabus (github.co
 - Post-masterclass funnel (u1–u4): the credit is **$79**, code **MASTERCLASS-VIP**, applied at Blueprint checkout, **never expires**. Blueprint: $179 × 5 (36% off $279), first month 50% off = $89.50. Because the credit never expires, the deadline in u2/u3/u4 is the **cohort**: "enrollment for the next Blueprint cohort closes on `{{cohort_close_date}}`" — replace every `{{credit_expires_date}}` with `{{cohort_close_date}}`. u4 subject e.g. "Your $79 credit is ready. Enrollment closes {{cohort_close_date}}". NEVER say the credit expires.
 - No-show (x1–x3): VIP seat transfers once to the remaining date; the 30-minute Q&A moves with it; x3 "$200 course credit" → "$79 MASTERCLASS-VIP credit".
 
-## TIER 3 — Full Course · The Longevity Blueprint + VIP Masterclass FREE (folder emails/full/)
+## TIER 3 — Blueprint + VIP Masterclass free (folder emails/blueprint-vip/)
 - Buyer is enrolling in **The Longevity Blueprint** (18-lesson live course) and receives the **VIP Masterclass (90 minutes incl. 30-minute Q&A) at no additional charge** ($79 value), on their chosen date (`{{session_date}}`).
 - Price: **first month $89.50 (50% off), then 4 × $179** — i.e. $179/month × 5 at 36% off the standard $279. "Nothing charged today for the masterclass — the seat is yours." Course carries a **14-day refund policy** (this tier MAY say it; the other two may not).
 - Includes: all 18 live lessons, session recordings, course materials + protocol library, free Abbott Lingo CGM shipped free, community + 1:1 coaching access, health-tracking tools, personal Longevity Blueprint, VIP Masterclass with Julie incl. 30-minute Q&A — free.
