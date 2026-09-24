@@ -93,7 +93,7 @@ footer{max-width:1400px;margin:0 auto;padding:36px 40px 100px;color:var(--muted)
 <div class="seghead"><div>
   <span class="tier">Segment · Regular</span>
   <h2>Regular · The Longevity Masterclass</h2>
-  <p class="price">$49, one payment <span style="color:var(--muted);font-size:28px;font-weight:600">· 16 emails · 5 automations</span></p>
+  <p class="price">$49, one payment <span style="color:var(--muted);font-size:28px;font-weight:600;display:block;margin-top:6px">· 16 emails · 5 automations</span></p>
   <p class="label">Who enters and how</p>
   <p>Buyer of the 60-minute live masterclass on Zoom (no Q&amp;A). Enters the abandoned-cart automations by dropping out of the $49 checkout; enters onboarding on purchase; no-show after the session if not in the room.</p>
 </div><div>
@@ -384,7 +384,7 @@ footer{max-width:1400px;margin:0 auto;padding:36px 40px 100px;color:var(--muted)
 <div class="seghead"><div>
   <span class="tier">Segment · VIP</span>
   <h2>VIP · The Longevity Masterclass · VIP Experience</h2>
-  <p class="price">$79, one payment <span style="color:var(--muted);font-size:28px;font-weight:600">· 20 emails · 6 automations</span></p>
+  <p class="price">$79, one payment <span style="color:var(--muted);font-size:28px;font-weight:600;display:block;margin-top:6px">· 20 emails · 6 automations</span></p>
   <p class="label">Who enters and how</p>
   <p>Buyer of the 90-minute VIP session: 60-minute masterclass + private 30-minute Q&amp;A with Julie. Enters the abandoned-cart automations by dropping out of the $79 checkout; onboarding on purchase; VIP follow-up after attending; no-show if not in the room.</p>
 </div><div>
@@ -756,7 +756,7 @@ footer{max-width:1400px;margin:0 auto;padding:36px 40px 100px;color:var(--muted)
   // scroll-spy: highlight current segment in the switcher
   var links=[].slice.call(document.querySelectorAll('nav.switch a.seg'));
   var secs=[].slice.call(document.querySelectorAll('section.segment'));
-  function spy(){ var y=window.scrollY+140, cur=secs[0]; secs.forEach(function(s){ if(s.offsetTop<=y) cur=s; }); links.forEach(function(a){ a.classList.toggle('on', a.getAttribute('href')==='#'+cur.id); }); document.querySelector('nav.switch').setAttribute('data-cur',cur.id); }
+  function spy(){ var nh=(document.querySelector('nav.switch')||{}).offsetHeight||140, y=window.scrollY+nh+12, cur=secs[0]; secs.forEach(function(s){ if(s.offsetTop<=y) cur=s; }); links.forEach(function(a){ a.classList.toggle('on', a.getAttribute('href')==='#'+cur.id); }); document.querySelector('nav.switch').setAttribute('data-cur',cur.id); }
   window.addEventListener('scroll',spy,{passive:true}); spy();
 })();
 </script>
