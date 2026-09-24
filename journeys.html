@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Full funnel · every segment, every email · Julie masterclass emails</title>
+<style>
+:root{--bg:#0d1117;--fg:#e6edf3;--muted:#9aa4b2;--card:#161b22;--line:#30363d;--gold:#F5C451;--purple:#A78BFA;--green:#3fb950}
+*{box-sizing:border-box} html{scroll-behavior:smooth;scroll-padding-top:120px}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,Segoe UI,Inter,Arial,sans-serif}
+a{color:var(--gold)}
+header.hero{padding:44px 32px 26px;border-bottom:1px solid var(--line);max-width:1240px;margin:0 auto}
+header.hero .kicker{color:var(--muted);text-transform:uppercase;letter-spacing:.14em;font-size:13px;font-weight:700;margin:0 0 10px}
+header.hero h1{margin:0 0 12px;font-size:40px;line-height:1.15;letter-spacing:-.01em}
+header.hero h1 small{display:block;font-size:20px;color:var(--muted);font-weight:500;margin-top:8px}
+header.hero p{margin:6px 0;color:var(--muted);max-width:980px}
+.count{display:inline-block;background:var(--gold);color:#0d1117;font-weight:800;border-radius:999px;padding:2px 12px;margin-left:8px;font-size:15px;vertical-align:middle}
+nav.switch{position:sticky;top:0;z-index:20;background:rgba(13,17,23,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.switch .in{max-width:1240px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+nav.switch a{font-size:14px;font-weight:700;color:var(--fg);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:8px 14px;min-height:40px;display:inline-flex;align-items:center;gap:8px}
+nav.switch a:hover{border-color:var(--gold)} nav.switch a .dot{width:10px;height:10px;border-radius:50%;background:var(--c)} nav.switch a small{color:var(--muted);font-weight:500}
+nav.switch a.seg{font-size:15px;background:#161b22}
+nav.switch a.ph{font-size:12.5px;padding:5px 10px;min-height:32px;font-weight:600}
+nav.switch .sep{width:1px;height:24px;background:var(--line);margin:0 4px}
+main{max-width:1240px;margin:0 auto;padding:12px 32px 120px}
+section.segment{margin:56px 0 0;padding-top:8px}
+.seghead{background:linear-gradient(180deg,#161b22,#0d1117);border:1px solid var(--line);border-left:6px solid var(--c);border-radius:18px;padding:30px 32px;display:grid;grid-template-columns:1.4fr 1fr;gap:28px}
+.seghead .tier{display:inline-block;font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#0d1117;background:var(--c);border-radius:6px;padding:3px 10px}
+.seghead h2{margin:12px 0 4px;font-size:34px;line-height:1.15}
+.seghead .price{font-size:26px;font-weight:800;color:var(--c);margin:0 0 14px}
+.seghead p{margin:0;color:var(--fg);font-size:18px}
+.seghead .label{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.12em;font-weight:700;margin:0 0 8px}
+.seghead ul{margin:0;padding:0;list-style:none} .seghead li{padding:8px 0;border-top:1px solid var(--line);font-size:16px} .seghead li:first-child{border-top:0}
+.summary{margin:26px 0 12px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.summary h3{margin:0;padding:16px 22px;font-size:18px;border-bottom:1px solid var(--line);color:var(--muted);font-weight:700}
+.summary table{width:100%;border-collapse:collapse;font-size:15.5px}
+.summary th{text-align:left;color:var(--muted);font-weight:700;font-size:12.5px;text-transform:uppercase;letter-spacing:.08em;padding:12px 16px;border-bottom:1px solid var(--line);background:#11161d}
+.summary td{padding:12px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+.summary tr:last-child td{border-bottom:0}
+.summary td.num{font-family:ui-monospace,Menlo,monospace;font-weight:800;white-space:nowrap} .summary td.num a{color:var(--fg);text-decoration:none;border-bottom:1px dotted var(--muted)}
+.summary td.tm{color:var(--fg);min-width:220px} .summary td.tm.tbd{color:var(--muted)}
+.summary td.sub{font-weight:700} .summary td.pur{color:var(--muted)}
+.summary tr.ph td{background:#11161d;color:var(--c);font-family:ui-monospace,Menlo,monospace;font-weight:800;font-size:13px;letter-spacing:.04em;padding:9px 16px}
+.stage{margin:54px 0 10px;display:flex;align-items:center;gap:14px}
+.stage h3{margin:0;font-size:15px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)} .stage:after{content:"";flex:1;height:1px;background:var(--line)}
+.phase{position:relative;margin:22px 0 0;padding-left:58px}
+.phase:before{content:"";position:absolute;left:19px;top:14px;bottom:0;width:2px;background:linear-gradient(180deg,var(--c),var(--line))}
+.phase h4{margin:0 0 4px;font-size:24px;color:var(--c);font-family:ui-monospace,Menlo,monospace;letter-spacing:-.01em}
+.phase .trig{margin:0 0 6px;color:var(--fg);font-size:17px;max-width:900px}
+.phase .auto{margin:0 0 6px;color:var(--muted);font-size:14px} .phase .auto code{color:#9ecbff;font-size:13px}
+.phase.skip{opacity:.85} .phase.skip .note{border:1px dashed var(--line);border-radius:12px;padding:16px 20px;color:var(--muted);margin-top:10px;max-width:900px}
+.node{position:relative;margin:30px 0 0}
+.node .pin{position:absolute;left:-58px;top:22px;width:40px;height:40px;border-radius:50%;background:var(--bg);border:3px solid var(--c);color:var(--fg);font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;font-family:ui-monospace,Menlo,monospace}
+article.email{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.meta{padding:22px 26px 20px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:18px}
+.meta .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+.meta .num{font-family:ui-monospace,Menlo,monospace;font-weight:800;font-size:15px;background:#0d1117;border:1px solid var(--line);border-radius:8px;padding:4px 10px}
+.meta .tierpill{font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#0d1117;background:var(--c);border-radius:6px;padding:3px 9px}
+.meta .time{font-weight:800;font-size:17px;color:var(--green);display:inline-flex;align-items:center;gap:8px} .meta .time.tbd{color:var(--gold)}
+.meta .time:before{content:"⏱";font-size:16px}
+.meta .subject{font-size:24px;font-weight:800;line-height:1.3;margin:6px 0 8px}
+.meta .purpose{color:var(--muted);font-size:17px;margin:0 0 6px} .meta .purpose b{color:var(--fg);font-weight:700}
+.meta .eyebrow{color:var(--muted);font-size:13.5px;margin:0} .meta .eyebrow code{color:#9ecbff}
+.meta .cta{color:var(--muted);font-size:14px;margin:6px 0 0}
+.meta .src{color:var(--muted);font-size:12.5px;margin:4px 0 0}
+.actions{display:flex;flex-direction:column;gap:8px;align-items:stretch;min-width:170px}
+.btn{font:inherit;font-weight:700;font-size:14px;padding:9px 14px;border-radius:9px;border:1px solid var(--line);background:#21262d;color:var(--fg);text-decoration:none;min-height:42px;display:inline-flex;align-items:center;justify-content:center}
+.btn:hover{filter:brightness(1.1)}
+.frame{background:#F5F0E5;padding:20px 0;display:flex;justify-content:center}
+.frame .fit{width:640px;max-width:100%;position:relative}
+.frame iframe{display:block;width:640px;border:0;background:#F5F0E5;min-height:1900px;transform-origin:top left}
+.frame .fallback{text-align:center;color:#0A1220;font-size:14px;padding:12px}
+footer{max-width:1240px;margin:0 auto;padding:28px 32px 80px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+@media (max-width:900px){.seghead{grid-template-columns:1fr} .meta{grid-template-columns:1fr} .actions{flex-direction:row;flex-wrap:wrap} .actions .btn{flex:1}}
+@media (max-width:700px){body{font-size:16px} header.hero{padding:28px 16px 18px} header.hero h1{font-size:28px} nav.switch .in{padding:10px 12px;gap:6px} nav.switch a{font-size:13px;padding:7px 11px} nav.switch a.ph,nav.switch .sep{display:none} main{padding:8px 12px 80px} .seghead{padding:20px 18px} .seghead h2{font-size:26px}
+ .phase{padding-left:40px} .phase:before{left:12px} .node .pin{left:-40px;width:28px;height:28px;font-size:11px;top:18px} .meta{padding:16px} .meta .subject{font-size:19px} .summary{overflow-x:auto} .summary table{min-width:720px} .frame{padding:12px 0} .frame .fit{width:100%}}
+</style></head><body>
+<header class="hero">
+  <p class="kicker">Longevity Life Academy · Julie Gibson Clark masterclass · ActiveCampaign email set</p>
+  <h1>Full funnel · every segment, every email <span class="count">36 emails</span><small>Two segments — Regular $49 and VIP $79 — from abandoned cart to post-session. Every email rendered full size, in send order.</small></h1>
+  <p>Source of truth: the install-ready files in <a href="launch-email-for-chris/">launch-email-for-chris/</a> (subjects, preheaders and buttons are read from the email HTML) and <a href="FACTS.md">FACTS.md</a>. Timings shown in <b style="color:var(--green)">green</b> are stated in the email copy itself; timings in <b style="color:var(--gold)">gold</b> are not written anywhere in this repo and are marked “per Chris's automation”.</p>
+  <p>Not in this set: the Blueprint / Full course + VIP tier (removed 2026-09-24 by Omri) and Regular u1–u4 (the four follow-ups are VIP-only). Dates appear as the AC token %LGVMASTERCLASSSESSIONDATE%; names as %FIRSTNAME%. <a href="launch-email-for-chris/">Install gallery (copy / download HTML)</a> · <a href="https://github.com/gitteromri-ux/lla-masterclass-emails-3tier">GitHub</a></p>
+</header>
+<nav class="switch"><div class="in"><a class="seg" href="#regular" style="--c:#A78BFA"><span class="dot"></span>Regular <small>$49 · 16 emails</small></a><a class="seg" href="#vip" style="--c:#F5C451"><span class="dot"></span>VIP <small>$79 · 20 emails</small></a><span class="sep"></span><a class="ph" href="#regular-a1" style="--c:#A78BFA"><span class="dot"></span>Cart 1 · name <small>Reg</small></a><a class="ph" href="#regular-a2" style="--c:#A78BFA"><span class="dot"></span>Cart 2 · date <small>Reg</small></a><a class="ph" href="#regular-a3" style="--c:#A78BFA"><span class="dot"></span>Cart 3 · payment <small>Reg</small></a><a class="ph" href="#regular-b" style="--c:#A78BFA"><span class="dot"></span>Onboarding <small>Reg</small></a><a class="ph" href="#regular-x" style="--c:#A78BFA"><span class="dot"></span>No-show <small>Reg</small></a><a class="ph" href="#vip-a1" style="--c:#F5C451"><span class="dot"></span>Cart 1 · name <small>VIP</small></a><a class="ph" href="#vip-a2" style="--c:#F5C451"><span class="dot"></span>Cart 2 · date <small>VIP</small></a><a class="ph" href="#vip-a3" style="--c:#F5C451"><span class="dot"></span>Cart 3 · payment <small>VIP</small></a><a class="ph" href="#vip-b" style="--c:#F5C451"><span class="dot"></span>Onboarding <small>VIP</small></a><a class="ph" href="#vip-u" style="--c:#F5C451"><span class="dot"></span>VIP follow-up <small>VIP</small></a><a class="ph" href="#vip-x" style="--c:#F5C451"><span class="dot"></span>No-show <small>VIP</small></a></div></nav>
+<main>
+<section class="segment" id="regular" style="--c:#A78BFA">
+<div class="seghead"><div>
+  <span class="tier">Segment · Regular</span>
+  <h2>Regular · The Longevity Masterclass</h2>
+  <p class="price">$49, one payment <span style="color:var(--muted);font-size:16px;font-weight:600">· 16 emails · 5 automations</span></p>
+  <p class="label">Who enters and how</p>
+  <p>Buyer of the 60-minute live masterclass on Zoom (no Q&amp;A). Enters the abandoned-cart automations by dropping out of the $49 checkout; enters onboarding on purchase; no-show after the session if not in the room.</p>
+</div><div>
+  <p class="label">Segment facts (FACTS.md)</p>
+  <ul><li>60 minutes, live on Zoom · not a recording</li><li>Choice of two live dates (Oct 27 · Nov 14), chosen at registration</li><li>No refund · all sales final at checkout</li><li>No post-session follow-up: u1–u4 are VIP-only</li></ul>
+</div></div>
+<div class="summary"><h3>Summary · Regular $49 · email # · timing · subject · purpose</h3><table><thead><tr><th>Email #</th><th>Send timing</th><th>Subject line</th><th>Purpose (preheader)</th></tr></thead><tbody>
+<tr class="ph"><td colspan="4">Before purchase · Abandoned cart · Name Details (checkout screen 1) · <span style="color:var(--muted)">LGV_Abandoned_Cart_Name_Details</span></td></tr>
+<tr><td class="num"><a href="#regular-jm-a1-1">JM-A1-1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 3</span></td><td class="tm tbd">After dropout at checkout screen 1 (name details) · email 1 of 3 · delay per Chris&#x27;s automation</td><td class="sub">One step left: choose your session date</td><td class="pur">Your details are saved. Pick your live date with Julie and your seat is set.</td></tr>
+<tr><td class="num"><a href="#regular-jm-a1-2">JM-A1-2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 3</span></td><td class="tm tbd">After dropout at checkout screen 1 (name details) · email 2 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Who is teaching you: Julie Gibson Clark</td><td class="pur">Verified pace of aging 0.665, a $100-a-month routine, and the date you still need to choose.</td></tr>
+<tr><td class="num"><a href="#regular-jm-a1-3">JM-A1-3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 3</span></td><td class="tm tbd">After dropout at checkout screen 1 (name details) · email 3 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Still choosing a date? Seats are filling</td><td class="pur">Your details are saved. Choose your live date with Julie soon, while seats remain.</td></tr>
+<tr class="ph"><td colspan="4">Before purchase · Abandoned cart · Course Details (checkout screen 2, date) · <span style="color:var(--muted)">LGV_Abandoned_Cart_Course_Details</span></td></tr>
+<tr><td class="num"><a href="#regular-jm-a2-1">JM-A2-1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 3</span></td><td class="tm tbd">After dropout at checkout screen 2 (date chosen) · email 1 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Your date is chosen. One step finishes your booking</td><td class="pur">You picked %LGVMASTERCLASSSESSIONDATE%. Finish your booking and the seat is yours.</td></tr>
+<tr><td class="num"><a href="#regular-jm-a2-2">JM-A2-2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 3</span></td><td class="tm tbd">After dropout at checkout screen 2 (date chosen) · email 2 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Live, not a recording: finish your booking</td><td class="pur">Live with Julie on %LGVMASTERCLASSSESSIONDATE%. Finish your booking in a minute.</td></tr>
+<tr><td class="num"><a href="#regular-jm-a2-3">JM-A2-3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 3</span></td><td class="tm tbd">After dropout at checkout screen 2 (date chosen) · email 3 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Finish your booking soon, %FIRSTNAME%</td><td class="pur">A last note about the session you chose. Booking takes a minute.</td></tr>
+<tr class="ph"><td colspan="4">Before purchase · Abandoned cart · No Payment (payment page) · <span style="color:var(--muted)">LGV_Abandoned_Cart_No_Payment</span></td></tr>
+<tr><td class="num"><a href="#regular-jm-a3-1">JM-A3-1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 3</span></td><td class="tm tbd">After dropout at the payment page · email 1 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Your order is set up. Complete your payment</td><td class="pur">Order and date saved, nothing charged. Payment takes about a minute.</td></tr>
+<tr><td class="num"><a href="#regular-jm-a3-2">JM-A3-2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 3</span></td><td class="tm tbd">After dropout at the payment page · email 2 of 3 · delay per Chris&#x27;s automation</td><td class="sub">One minute completes your order, %FIRSTNAME%</td><td class="pur">Your order and date are saved; only the payment is missing. Card or PayPal, about a minute.</td></tr>
+<tr><td class="num"><a href="#regular-jm-a3-3">JM-A3-3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 3</span></td><td class="tm tbd">After dropout at the payment page · email 3 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Complete your order soon, %FIRSTNAME%</td><td class="pur">A last note about the order you set up. Nothing charged yet; payment takes a minute.</td></tr>
+<tr class="ph"><td colspan="4">After purchase · Onboarding · after purchase · <span style="color:var(--muted)">LGV_Onboarding_WIP</span></td></tr>
+<tr><td class="num"><a href="#regular-jm-b1">JM-B1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 4</span></td><td class="tm tbd">After purchase · seat confirmation · exact delay per Chris&#x27;s automation</td><td class="sub">You’re in. Your learning platform is ready</td><td class="pur">Your seat is confirmed. Your learning platform has your session and materials.</td></tr>
+<tr><td class="num"><a href="#regular-jm-b2">JM-B2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 4</span></td><td class="tm">3 days before the session</td><td class="sub">Three days to Julie. Here’s how to prepare</td><td class="pur">What Julie will cover, and the one thing to bring.</td></tr>
+<tr><td class="num"><a href="#regular-jm-b3">JM-B3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 4</span></td><td class="tm">24 hours before the session (day before)</td><td class="sub">Tomorrow: your live session with Julie</td><td class="pur">Your session starts in 24 hours. Join through your learning platform.</td></tr>
+<tr><td class="num"><a href="#regular-jm-b4">JM-B4</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 4 of 4</span></td><td class="tm">About 2 hours before the session</td><td class="sub">Starting in two hours</td><td class="pur">Sign in to your learning platform to join.</td></tr>
+<tr class="ph"><td colspan="4">VIP follow-up · $249 Blueprint credit — not sent for this segment (VIP-only)</td></tr>
+<tr class="ph"><td colspan="4">After the session · missed · No-show buyers · <span style="color:var(--muted)">LGV_No-Show Buyers_WIP</span></td></tr>
+<tr><td class="num"><a href="#regular-jm-x1">JM-X1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 3</span></td><td class="tm tbd">After the session, attendance record = not in the room · email 1 of 3 · delay per Chris&#x27;s automation</td><td class="sub">We missed you, %FIRSTNAME%</td><td class="pur">You were not in the room. Here is where things stand, and how to reach us.</td></tr>
+<tr><td class="num"><a href="#regular-jm-x2">JM-X2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 3</span></td><td class="tm tbd">After the session, attendance record = not in the room · email 2 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Your session information, %FIRSTNAME%</td><td class="pur">Where to find your session information and materials, and how to reach us.</td></tr>
+<tr><td class="num"><a href="#regular-jm-x3">JM-X3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 3</span></td><td class="tm tbd">After the session, attendance record = not in the room · email 3 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Still here if you need us, %FIRSTNAME%</td><td class="pur">A final follow-up on your missed session, and how to reach us.</td></tr>
+</tbody></table></div>
+<div class="stage"><h3>Before purchase</h3></div>
+<div class="phase" id="regular-a1"><h4>Abandoned cart · Name Details (checkout screen 1)</h4><p class="trig">Enters when a visitor drops out at checkout screen 1 (name details) without choosing a session date.</p><p class="auto">ActiveCampaign automation <code>LGV_Abandoned_Cart_Name_Details</code> · 3 emails · sent in this order</p>
+<div class="node" id="regular-jm-a1-1"><div class="pin">1/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A1-1</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at checkout screen 1 (name details) · email 1 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">One step left: choose your session date</div>
+    <p class="purpose"><b>Purpose:</b> Your details are saved. Pick your live date with Julie and your seat is set.</p>
+    <p class="eyebrow">In-email banner: Almost There · Your details are saved. Next: choose your date · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Choose My Session Date</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a1-1.html</code> · LGV_Abandoned_Cart_Name_Details · Email 1 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a1-1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a1-1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a1-1" data-src="launch-email-for-chris/masterclass/jm-a1-1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a1-1.html" target="_blank" rel="noopener">open JM-A1-1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-a1-2"><div class="pin">2/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A1-2</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at checkout screen 1 (name details) · email 2 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Who is teaching you: Julie Gibson Clark</div>
+    <p class="purpose"><b>Purpose:</b> Verified pace of aging 0.665, a $100-a-month routine, and the date you still need to choose.</p>
+    <p class="eyebrow">In-email banner: Verified Results · Ranked No. 2, Rejuvenation Olympics · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Choose My Session Date</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a1-2.html</code> · LGV_Abandoned_Cart_Name_Details · Email 2 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a1-2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a1-2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a1-2" data-src="launch-email-for-chris/masterclass/jm-a1-2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a1-2.html" target="_blank" rel="noopener">open JM-A1-2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-a1-3"><div class="pin">3/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A1-3</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at checkout screen 1 (name details) · email 3 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Still choosing a date? Seats are filling</div>
+    <p class="purpose"><b>Purpose:</b> Your details are saved. Choose your live date with Julie soon, while seats remain.</p>
+    <p class="eyebrow">In-email banner: Final Reminder · Choose your session date soon · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Choose My Session Date</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a1-3.html</code> · LGV_Abandoned_Cart_Name_Details · Email 3 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a1-3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a1-3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a1-3" data-src="launch-email-for-chris/masterclass/jm-a1-3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a1-3.html" target="_blank" rel="noopener">open JM-A1-3 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="phase" id="regular-a2"><h4>Abandoned cart · Course Details (checkout screen 2, date)</h4><p class="trig">Enters when the date is chosen but the booking is not finished (checkout screen 2).</p><p class="auto">ActiveCampaign automation <code>LGV_Abandoned_Cart_Course_Details</code> · 3 emails · sent in this order</p>
+<div class="node" id="regular-jm-a2-1"><div class="pin">1/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A2-1</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at checkout screen 2 (date chosen) · email 1 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Your date is chosen. One step finishes your booking</div>
+    <p class="purpose"><b>Purpose:</b> You picked %LGVMASTERCLASSSESSIONDATE%. Finish your booking and the seat is yours.</p>
+    <p class="eyebrow">In-email banner: Almost Booked · Your date is chosen; one step remains · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Finish My Booking</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a2-1.html</code> · LGV_Abandoned_Cart_Course_Details · Email 1 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a2-1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a2-1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a2-1" data-src="launch-email-for-chris/masterclass/jm-a2-1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a2-1.html" target="_blank" rel="noopener">open JM-A2-1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-a2-2"><div class="pin">2/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A2-2</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at checkout screen 2 (date chosen) · email 2 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Live, not a recording: finish your booking</div>
+    <p class="purpose"><b>Purpose:</b> Live with Julie on %LGVMASTERCLASSSESSIONDATE%. Finish your booking in a minute.</p>
+    <p class="eyebrow">In-email banner: Live On Zoom · 60 minutes live with Julie · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Finish My Booking</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a2-2.html</code> · LGV_Abandoned_Cart_Course_Details · Email 2 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a2-2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a2-2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a2-2" data-src="launch-email-for-chris/masterclass/jm-a2-2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a2-2.html" target="_blank" rel="noopener">open JM-A2-2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-a2-3"><div class="pin">3/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A2-3</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at checkout screen 2 (date chosen) · email 3 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Finish your booking soon, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> A last note about the session you chose. Booking takes a minute.</p>
+    <p class="eyebrow">In-email banner: Last Note · Finish your booking soon · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Finish My Booking</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a2-3.html</code> · LGV_Abandoned_Cart_Course_Details · Email 3 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a2-3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a2-3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a2-3" data-src="launch-email-for-chris/masterclass/jm-a2-3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a2-3.html" target="_blank" rel="noopener">open JM-A2-3 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="phase" id="regular-a3"><h4>Abandoned cart · No Payment (payment page)</h4><p class="trig">Enters when the order and date are set up but payment is not completed.</p><p class="auto">ActiveCampaign automation <code>LGV_Abandoned_Cart_No_Payment</code> · 3 emails · sent in this order</p>
+<div class="node" id="regular-jm-a3-1"><div class="pin">1/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A3-1</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at the payment page · email 1 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Your order is set up. Complete your payment</div>
+    <p class="purpose"><b>Purpose:</b> Order and date saved, nothing charged. Payment takes about a minute.</p>
+    <p class="eyebrow">In-email banner: Payment Not Completed · Your order is set up; nothing has been charged · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Complete My Order</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a3-1.html</code> · LGV_Abandoned_Cart_No_Payment · Email 1 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a3-1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a3-1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a3-1" data-src="launch-email-for-chris/masterclass/jm-a3-1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a3-1.html" target="_blank" rel="noopener">open JM-A3-1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-a3-2"><div class="pin">2/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A3-2</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at the payment page · email 2 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">One minute completes your order, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> Your order and date are saved; only the payment is missing. Card or PayPal, about a minute.</p>
+    <p class="eyebrow">In-email banner: What You Receive · The full masterclass, one payment of $49 · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Complete My Order</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a3-2.html</code> · LGV_Abandoned_Cart_No_Payment · Email 2 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a3-2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a3-2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a3-2" data-src="launch-email-for-chris/masterclass/jm-a3-2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a3-2.html" target="_blank" rel="noopener">open JM-A3-2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-a3-3"><div class="pin">3/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A3-3</span><span class="tierpill">Regular $49</span><span class="time tbd">After dropout at the payment page · email 3 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Complete your order soon, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> A last note about the order you set up. Nothing charged yet; payment takes a minute.</p>
+    <p class="eyebrow">In-email banner: Last Note · Complete payment soon to book your seat · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Complete My Order</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-a3-3.html</code> · LGV_Abandoned_Cart_No_Payment · Email 3 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-a3-3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-a3-3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-a3-3" data-src="launch-email-for-chris/masterclass/jm-a3-3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-a3-3.html" target="_blank" rel="noopener">open JM-A3-3 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="stage"><h3>After purchase</h3></div>
+<div class="phase" id="regular-b"><h4>Onboarding · after purchase</h4><p class="trig">Enters on purchase of the seat. Confirmation, then a preparation note, a reminder the day before, and one two hours before the session (cadence stated in the emails).</p><p class="auto">ActiveCampaign automation <code>LGV_Onboarding_WIP</code> · 4 emails · sent in this order</p>
+<div class="node" id="regular-jm-b1"><div class="pin">1/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-B1</span><span class="tierpill">Regular $49</span><span class="time tbd">After purchase · seat confirmation · exact delay per Chris&#x27;s automation</span></div>
+    <div class="subject">You’re in. Your learning platform is ready</div>
+    <p class="purpose"><b>Purpose:</b> Your seat is confirmed. Your learning platform has your session and materials.</p>
+    <p class="eyebrow">In-email banner: Enrollment Confirmed · Your seat and learning platform are ready · Timing source: email copy: “Your seat is confirmed”</p>
+    <p class="cta">Buttons: Open My Learning Platform / Explore The Longevity Blueprint</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-b1.html</code> · LGV_Onboarding_WIP · Email 1 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-b1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-b1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-b1" data-src="launch-email-for-chris/masterclass/jm-b1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-b1.html" target="_blank" rel="noopener">open JM-B1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-b2"><div class="pin">2/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-B2</span><span class="tierpill">Regular $49</span><span class="time">3 days before the session</span></div>
+    <div class="subject">Three days to Julie. Here’s how to prepare</div>
+    <p class="purpose"><b>Purpose:</b> What Julie will cover, and the one thing to bring.</p>
+    <p class="eyebrow">In-email banner: Prepare For Class · What to bring to your live session · Timing source: email copy: “Three days to Julie”</p>
+    <p class="cta">Buttons: Open My Learning Platform / Explore The Longevity Blueprint</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-b2.html</code> · LGV_Onboarding_WIP · Email 2 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-b2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-b2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-b2" data-src="launch-email-for-chris/masterclass/jm-b2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-b2.html" target="_blank" rel="noopener">open JM-B2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-b3"><div class="pin">3/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-B3</span><span class="tierpill">Regular $49</span><span class="time">24 hours before the session (day before)</span></div>
+    <div class="subject">Tomorrow: your live session with Julie</div>
+    <p class="purpose"><b>Purpose:</b> Your session starts in 24 hours. Join through your learning platform.</p>
+    <p class="eyebrow">In-email banner: Tomorrow · Your session is approaching · Timing source: email copy: “Your session starts in 24 hours”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-b3.html</code> · LGV_Onboarding_WIP · Email 3 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-b3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-b3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-b3" data-src="launch-email-for-chris/masterclass/jm-b3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-b3.html" target="_blank" rel="noopener">open JM-B3 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-b4"><div class="pin">4/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-B4</span><span class="tierpill">Regular $49</span><span class="time">About 2 hours before the session</span></div>
+    <div class="subject">Starting in two hours</div>
+    <p class="purpose"><b>Purpose:</b> Sign in to your learning platform to join.</p>
+    <p class="eyebrow">In-email banner: Today · Final details for your live masterclass · Timing source: email copy: “starts in about two hours”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-b4.html</code> · LGV_Onboarding_WIP · Email 4 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-b4.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-b4">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-b4" data-src="launch-email-for-chris/masterclass/jm-b4.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-b4.html" target="_blank" rel="noopener">open JM-B4 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="stage"><h3>After the session · attended</h3></div>
+<div class="phase skip" id="regular-u"><h4>VIP follow-up · $249 Blueprint credit</h4><div class="note">Not sent to Regular $49 buyers. The four post-session follow-ups (u1–u4, $249 Blueprint credit, code MASTERCLASS-VIP) are VIP-only — Chris, Teams; see <a href="launch-email-for-chris/README.md">README</a>.</div></div>
+<div class="stage"><h3>After the session · missed</h3></div>
+<div class="phase" id="regular-x"><h4>No-show buyers</h4><p class="trig">Paid, did not attend — the attendance record shows the buyer was not in the room.</p><p class="auto">ActiveCampaign automation <code>LGV_No-Show Buyers_WIP</code> · 3 emails · sent in this order</p>
+<div class="node" id="regular-jm-x1"><div class="pin">1/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-X1</span><span class="tierpill">Regular $49</span><span class="time tbd">After the session, attendance record = not in the room · email 1 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">We missed you, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> You were not in the room. Here is where things stand, and how to reach us.</p>
+    <p class="eyebrow">In-email banner: Session Missed · Here is where things stand · Timing source: email copy: “Our attendance record shows you were not in the room”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-x1.html</code> · LGV_No-Show Buyers_WIP · Email 1 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-x1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-x1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-x1" data-src="launch-email-for-chris/masterclass/jm-x1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-x1.html" target="_blank" rel="noopener">open JM-X1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-x2"><div class="pin">2/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-X2</span><span class="tierpill">Regular $49</span><span class="time tbd">After the session, attendance record = not in the room · email 2 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Your session information, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> Where to find your session information and materials, and how to reach us.</p>
+    <p class="eyebrow">In-email banner: Follow-Up · Your learning platform and how to reach us · Timing source: email copy: “Our attendance record shows you were not in the room”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-x2.html</code> · LGV_No-Show Buyers_WIP · Email 2 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-x2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-x2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-x2" data-src="launch-email-for-chris/masterclass/jm-x2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-x2.html" target="_blank" rel="noopener">open JM-X2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="regular-jm-x3"><div class="pin">3/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-X3</span><span class="tierpill">Regular $49</span><span class="time tbd">After the session, attendance record = not in the room · email 3 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Still here if you need us, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> A final follow-up on your missed session, and how to reach us.</p>
+    <p class="eyebrow">In-email banner: Final Follow-Up · Reply if you need help with your booking · Timing source: email copy: “Our attendance record shows you were not in the room”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/masterclass/jm-x3.html</code> · LGV_No-Show Buyers_WIP · Email 3 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/masterclass/jm-x3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#masterclass-jm-x3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="masterclass jm-x3" data-src="launch-email-for-chris/masterclass/jm-x3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/masterclass/jm-x3.html" target="_blank" rel="noopener">open JM-X3 directly</a>.</div></div></div>
+</article></div>
+</div>
+</section>
+<section class="segment" id="vip" style="--c:#F5C451">
+<div class="seghead"><div>
+  <span class="tier">Segment · VIP</span>
+  <h2>VIP · The Longevity Masterclass · VIP Experience</h2>
+  <p class="price">$79, one payment <span style="color:var(--muted);font-size:16px;font-weight:600">· 20 emails · 6 automations</span></p>
+  <p class="label">Who enters and how</p>
+  <p>Buyer of the 90-minute VIP session: 60-minute masterclass + private 30-minute Q&amp;A with Julie. Enters the abandoned-cart automations by dropping out of the $79 checkout; onboarding on purchase; VIP follow-up after attending; no-show if not in the room.</p>
+</div><div>
+  <p class="label">Segment facts (FACTS.md)</p>
+  <ul><li>90 minutes total: 60-minute masterclass + private 30-minute Q&amp;A</li><li>$249 credit toward The Longevity Blueprint · code MASTERCLASS-VIP</li><li>Blueprint: $179 × 5 · 14-day refund from registration (course only)</li><li>Bring questions for the Q&amp;A (b1–b4)</li></ul>
+</div></div>
+<div class="summary"><h3>Summary · VIP $79 · email # · timing · subject · purpose</h3><table><thead><tr><th>Email #</th><th>Send timing</th><th>Subject line</th><th>Purpose (preheader)</th></tr></thead><tbody>
+<tr class="ph"><td colspan="4">Before purchase · Abandoned cart · Name Details (checkout screen 1) · <span style="color:var(--muted)">LGV_Abandoned_Cart_Name_Details</span></td></tr>
+<tr><td class="num"><a href="#vip-jm-a1-1">JM-A1-1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 3</span></td><td class="tm tbd">After dropout at checkout screen 1 (name details) · email 1 of 3 · delay per Chris&#x27;s automation</td><td class="sub">One step left: choose your VIP session date</td><td class="pur">Your details are saved. Pick your live date with Julie and your VIP seat is set.</td></tr>
+<tr><td class="num"><a href="#vip-jm-a1-2">JM-A1-2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 3</span></td><td class="tm tbd">After dropout at checkout screen 1 (name details) · email 2 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Who is teaching you: Julie Gibson Clark</td><td class="pur">Verified pace of aging 0.665, a $100-a-month routine, and the date you still need to choose.</td></tr>
+<tr><td class="num"><a href="#vip-jm-a1-3">JM-A1-3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 3</span></td><td class="tm tbd">After dropout at checkout screen 1 (name details) · email 3 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Still choosing a date? VIP seats are limited</td><td class="pur">Your details are saved. Choose your live date soon, while VIP seats remain.</td></tr>
+<tr class="ph"><td colspan="4">Before purchase · Abandoned cart · Course Details (checkout screen 2, date) · <span style="color:var(--muted)">LGV_Abandoned_Cart_Course_Details</span></td></tr>
+<tr><td class="num"><a href="#vip-jm-a2-1">JM-A2-1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 3</span></td><td class="tm tbd">After dropout at checkout screen 2 (date chosen) · email 1 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Your VIP date is chosen. One step finishes booking</td><td class="pur">You picked %LGVMASTERCLASSSESSIONDATE%. Finish your booking and the VIP seat is yours.</td></tr>
+<tr><td class="num"><a href="#vip-jm-a2-2">JM-A2-2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 3</span></td><td class="tm tbd">After dropout at checkout screen 2 (date chosen) · email 2 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Live, not a recording: finish your VIP booking</td><td class="pur">Live with Julie on %LGVMASTERCLASSSESSIONDATE%. Finish booking in a minute.</td></tr>
+<tr><td class="num"><a href="#vip-jm-a2-3">JM-A2-3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 3</span></td><td class="tm tbd">After dropout at checkout screen 2 (date chosen) · email 3 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Finish your VIP booking soon, %FIRSTNAME%</td><td class="pur">A last note about the VIP session you chose. Booking takes a minute.</td></tr>
+<tr class="ph"><td colspan="4">Before purchase · Abandoned cart · No Payment (payment page) · <span style="color:var(--muted)">LGV_Abandoned_Cart_No_Payment</span></td></tr>
+<tr><td class="num"><a href="#vip-jm-a3-1">JM-A3-1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 3</span></td><td class="tm tbd">After dropout at the payment page · email 1 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Your VIP order is set up. Complete your payment</td><td class="pur">Order and date saved, nothing charged. Payment takes about a minute.</td></tr>
+<tr><td class="num"><a href="#vip-jm-a3-2">JM-A3-2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 3</span></td><td class="tm tbd">After dropout at the payment page · email 2 of 3 · delay per Chris&#x27;s automation</td><td class="sub">One minute completes your VIP order, %FIRSTNAME%</td><td class="pur">Your order and date are saved; only the payment is missing. Card or PayPal, about a minute.</td></tr>
+<tr><td class="num"><a href="#vip-jm-a3-3">JM-A3-3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 3</span></td><td class="tm tbd">After dropout at the payment page · email 3 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Complete your VIP order soon, %FIRSTNAME%</td><td class="pur">A last note about the order you set up. Nothing charged yet; payment takes a minute.</td></tr>
+<tr class="ph"><td colspan="4">After purchase · Onboarding · after purchase · <span style="color:var(--muted)">LGV_Onboarding_WIP</span></td></tr>
+<tr><td class="num"><a href="#vip-jm-b1">JM-B1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 4</span></td><td class="tm tbd">After purchase · seat confirmation · exact delay per Chris&#x27;s automation</td><td class="sub">Your VIP seat is confirmed. Here’s what’s next</td><td class="pur">Your VIP seat is confirmed. Your learning platform is ready; bring questions for the Q&amp;A.</td></tr>
+<tr><td class="num"><a href="#vip-jm-b2">JM-B2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 4</span></td><td class="tm">3 days before the session</td><td class="sub">Three days to Julie. Here’s how to prepare</td><td class="pur">What Julie will cover, and the questions to bring for your private Q&amp;A.</td></tr>
+<tr><td class="num"><a href="#vip-jm-b3">JM-B3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 4</span></td><td class="tm">24 hours before the session (day before)</td><td class="sub">Tomorrow: your live VIP session with Julie</td><td class="pur">Starts in 24 hours. Join via your learning platform; bring questions.</td></tr>
+<tr><td class="num"><a href="#vip-jm-b4">JM-B4</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 4 of 4</span></td><td class="tm">About 2 hours before the session</td><td class="sub">Starting in two hours</td><td class="pur">Sign in to your learning platform to join.</td></tr>
+<tr class="ph"><td colspan="4">After the session · attended · VIP follow-up · $249 Blueprint credit · <span style="color:var(--muted)">LGV_Onboarding_WIP (VIP follow-up)</span></td></tr>
+<tr><td class="num"><a href="#vip-jm-u1">JM-U1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 4</span></td><td class="tm tbd">After attending the session · email 1 of 4 · delay per Chris&#x27;s automation</td><td class="sub">Thank you, %FIRSTNAME%. Your $249 credit is ready</td><td class="pur">Your VIP credit toward The Longevity Blueprint, code MASTERCLASS-VIP, applied through the button.</td></tr>
+<tr><td class="num"><a href="#vip-jm-u2">JM-U2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 4</span></td><td class="tm tbd">After attending the session · email 2 of 4 · delay per Chris&#x27;s automation</td><td class="sub">What the masterclass couldn’t fit into 90 minutes</td><td class="pur">Inside the 18-lesson Longevity Blueprint, and what changes when you take it.</td></tr>
+<tr><td class="num"><a href="#vip-jm-u3">JM-U3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 4</span></td><td class="tm tbd">After attending the session · email 3 of 4 · delay per Chris&#x27;s automation</td><td class="sub">The Blueprint, in numbers</td><td class="pur">What it costs, what your $249 credit changes, and the 14-day refund.</td></tr>
+<tr><td class="num"><a href="#vip-jm-u4">JM-U4</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 4 of 4</span></td><td class="tm tbd">After attending the session · email 4 of 4 · delay per Chris&#x27;s automation</td><td class="sub">Your $249 credit, and a person to talk to</td><td class="pur">A next step to explore soon, and a real person to talk it through with.</td></tr>
+<tr class="ph"><td colspan="4">After the session · missed · No-show buyers · <span style="color:var(--muted)">LGV_No-Show Buyers_WIP</span></td></tr>
+<tr><td class="num"><a href="#vip-jm-x1">JM-X1</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 1 of 3</span></td><td class="tm tbd">After the session, attendance record = not in the room · email 1 of 3 · delay per Chris&#x27;s automation</td><td class="sub">We missed you, %FIRSTNAME%</td><td class="pur">You were not in the room. Here is where things stand, and how to reach us.</td></tr>
+<tr><td class="num"><a href="#vip-jm-x2">JM-X2</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 2 of 3</span></td><td class="tm tbd">After the session, attendance record = not in the room · email 2 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Your session information, %FIRSTNAME%</td><td class="pur">Where to find your session information and materials, and how to reach us.</td></tr>
+<tr><td class="num"><a href="#vip-jm-x3">JM-X3</a><br><span style="color:var(--muted);font-weight:500;font-size:12.5px">Email 3 of 3</span></td><td class="tm tbd">After the session, attendance record = not in the room · email 3 of 3 · delay per Chris&#x27;s automation</td><td class="sub">Still here if you need us, %FIRSTNAME%</td><td class="pur">A final follow-up on your missed session, and how to reach us.</td></tr>
+</tbody></table></div>
+<div class="stage"><h3>Before purchase</h3></div>
+<div class="phase" id="vip-a1"><h4>Abandoned cart · Name Details (checkout screen 1)</h4><p class="trig">Enters when a visitor drops out at checkout screen 1 (name details) without choosing a session date.</p><p class="auto">ActiveCampaign automation <code>LGV_Abandoned_Cart_Name_Details</code> · 3 emails · sent in this order</p>
+<div class="node" id="vip-jm-a1-1"><div class="pin">1/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A1-1</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at checkout screen 1 (name details) · email 1 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">One step left: choose your VIP session date</div>
+    <p class="purpose"><b>Purpose:</b> Your details are saved. Pick your live date with Julie and your VIP seat is set.</p>
+    <p class="eyebrow">In-email banner: Almost There · Your details are saved. Next: choose your date · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Choose My Session Date</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a1-1.html</code> · LGV_Abandoned_Cart_Name_Details · Email 1 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a1-1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a1-1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a1-1" data-src="launch-email-for-chris/vip-masterclass/jm-a1-1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a1-1.html" target="_blank" rel="noopener">open JM-A1-1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-a1-2"><div class="pin">2/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A1-2</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at checkout screen 1 (name details) · email 2 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Who is teaching you: Julie Gibson Clark</div>
+    <p class="purpose"><b>Purpose:</b> Verified pace of aging 0.665, a $100-a-month routine, and the date you still need to choose.</p>
+    <p class="eyebrow">In-email banner: Verified Results · Ranked No. 2, Rejuvenation Olympics · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Choose My Session Date</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a1-2.html</code> · LGV_Abandoned_Cart_Name_Details · Email 2 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a1-2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a1-2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a1-2" data-src="launch-email-for-chris/vip-masterclass/jm-a1-2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a1-2.html" target="_blank" rel="noopener">open JM-A1-2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-a1-3"><div class="pin">3/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A1-3</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at checkout screen 1 (name details) · email 3 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Still choosing a date? VIP seats are limited</div>
+    <p class="purpose"><b>Purpose:</b> Your details are saved. Choose your live date soon, while VIP seats remain.</p>
+    <p class="eyebrow">In-email banner: Final Reminder · Choose your session date soon · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Choose My Session Date</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a1-3.html</code> · LGV_Abandoned_Cart_Name_Details · Email 3 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a1-3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a1-3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a1-3" data-src="launch-email-for-chris/vip-masterclass/jm-a1-3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a1-3.html" target="_blank" rel="noopener">open JM-A1-3 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="phase" id="vip-a2"><h4>Abandoned cart · Course Details (checkout screen 2, date)</h4><p class="trig">Enters when the date is chosen but the booking is not finished (checkout screen 2).</p><p class="auto">ActiveCampaign automation <code>LGV_Abandoned_Cart_Course_Details</code> · 3 emails · sent in this order</p>
+<div class="node" id="vip-jm-a2-1"><div class="pin">1/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A2-1</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at checkout screen 2 (date chosen) · email 1 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Your VIP date is chosen. One step finishes booking</div>
+    <p class="purpose"><b>Purpose:</b> You picked %LGVMASTERCLASSSESSIONDATE%. Finish your booking and the VIP seat is yours.</p>
+    <p class="eyebrow">In-email banner: Almost Booked · Your date is chosen; one step remains · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Finish My Booking</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a2-1.html</code> · LGV_Abandoned_Cart_Course_Details · Email 1 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a2-1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a2-1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a2-1" data-src="launch-email-for-chris/vip-masterclass/jm-a2-1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a2-1.html" target="_blank" rel="noopener">open JM-A2-1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-a2-2"><div class="pin">2/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A2-2</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at checkout screen 2 (date chosen) · email 2 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Live, not a recording: finish your VIP booking</div>
+    <p class="purpose"><b>Purpose:</b> Live with Julie on %LGVMASTERCLASSSESSIONDATE%. Finish booking in a minute.</p>
+    <p class="eyebrow">In-email banner: Live On Zoom · 90 minutes with Julie, questions answered live · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Finish My Booking</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a2-2.html</code> · LGV_Abandoned_Cart_Course_Details · Email 2 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a2-2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a2-2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a2-2" data-src="launch-email-for-chris/vip-masterclass/jm-a2-2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a2-2.html" target="_blank" rel="noopener">open JM-A2-2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-a2-3"><div class="pin">3/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A2-3</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at checkout screen 2 (date chosen) · email 3 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Finish your VIP booking soon, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> A last note about the VIP session you chose. Booking takes a minute.</p>
+    <p class="eyebrow">In-email banner: Last Note · Finish your booking soon · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Finish My Booking</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a2-3.html</code> · LGV_Abandoned_Cart_Course_Details · Email 3 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a2-3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a2-3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a2-3" data-src="launch-email-for-chris/vip-masterclass/jm-a2-3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a2-3.html" target="_blank" rel="noopener">open JM-A2-3 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="phase" id="vip-a3"><h4>Abandoned cart · No Payment (payment page)</h4><p class="trig">Enters when the order and date are set up but payment is not completed.</p><p class="auto">ActiveCampaign automation <code>LGV_Abandoned_Cart_No_Payment</code> · 3 emails · sent in this order</p>
+<div class="node" id="vip-jm-a3-1"><div class="pin">1/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A3-1</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at the payment page · email 1 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Your VIP order is set up. Complete your payment</div>
+    <p class="purpose"><b>Purpose:</b> Order and date saved, nothing charged. Payment takes about a minute.</p>
+    <p class="eyebrow">In-email banner: Payment Not Completed · Your order is set up; nothing has been charged · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Complete My Order</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a3-1.html</code> · LGV_Abandoned_Cart_No_Payment · Email 1 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a3-1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a3-1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a3-1" data-src="launch-email-for-chris/vip-masterclass/jm-a3-1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a3-1.html" target="_blank" rel="noopener">open JM-A3-1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-a3-2"><div class="pin">2/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A3-2</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at the payment page · email 2 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">One minute completes your VIP order, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> Your order and date are saved; only the payment is missing. Card or PayPal, about a minute.</p>
+    <p class="eyebrow">In-email banner: What You Receive · The full VIP masterclass, one payment of $79 · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Complete My Order</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a3-2.html</code> · LGV_Abandoned_Cart_No_Payment · Email 2 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a3-2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a3-2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a3-2" data-src="launch-email-for-chris/vip-masterclass/jm-a3-2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a3-2.html" target="_blank" rel="noopener">open JM-A3-2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-a3-3"><div class="pin">3/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-A3-3</span><span class="tierpill">VIP $79</span><span class="time tbd">After dropout at the payment page · email 3 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Complete your VIP order soon, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> A last note about the order you set up. Nothing charged yet; payment takes a minute.</p>
+    <p class="eyebrow">In-email banner: Last Note · Complete payment soon to book your VIP seat · Timing source: README.md funnel description</p>
+    <p class="cta">Button: Complete My Order</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-a3-3.html</code> · LGV_Abandoned_Cart_No_Payment · Email 3 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-a3-3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-a3-3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-a3-3" data-src="launch-email-for-chris/vip-masterclass/jm-a3-3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-a3-3.html" target="_blank" rel="noopener">open JM-A3-3 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="stage"><h3>After purchase</h3></div>
+<div class="phase" id="vip-b"><h4>Onboarding · after purchase</h4><p class="trig">Enters on purchase of the seat. Confirmation, then a preparation note, a reminder the day before, and one two hours before the session (cadence stated in the emails).</p><p class="auto">ActiveCampaign automation <code>LGV_Onboarding_WIP</code> · 4 emails · sent in this order</p>
+<div class="node" id="vip-jm-b1"><div class="pin">1/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-B1</span><span class="tierpill">VIP $79</span><span class="time tbd">After purchase · seat confirmation · exact delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Your VIP seat is confirmed. Here’s what’s next</div>
+    <p class="purpose"><b>Purpose:</b> Your VIP seat is confirmed. Your learning platform is ready; bring questions for the Q&amp;A.</p>
+    <p class="eyebrow">In-email banner: VIP Seat Confirmed · Your learning platform is ready · Timing source: email copy: “Your seat is confirmed”</p>
+    <p class="cta">Buttons: Open My Learning Platform / Use My $249 Blueprint Credit</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-b1.html</code> · LGV_Onboarding_WIP · Email 1 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-b1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-b1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-b1" data-src="launch-email-for-chris/vip-masterclass/jm-b1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-b1.html" target="_blank" rel="noopener">open JM-B1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-b2"><div class="pin">2/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-B2</span><span class="tierpill">VIP $79</span><span class="time">3 days before the session</span></div>
+    <div class="subject">Three days to Julie. Here’s how to prepare</div>
+    <p class="purpose"><b>Purpose:</b> What Julie will cover, and the questions to bring for your private Q&amp;A.</p>
+    <p class="eyebrow">In-email banner: Prepare For Class · What to bring to your VIP session · Timing source: email copy: “Three days to Julie”</p>
+    <p class="cta">Buttons: Open My Learning Platform / Use My $249 Blueprint Credit</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-b2.html</code> · LGV_Onboarding_WIP · Email 2 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-b2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-b2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-b2" data-src="launch-email-for-chris/vip-masterclass/jm-b2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-b2.html" target="_blank" rel="noopener">open JM-B2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-b3"><div class="pin">3/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-B3</span><span class="tierpill">VIP $79</span><span class="time">24 hours before the session (day before)</span></div>
+    <div class="subject">Tomorrow: your live VIP session with Julie</div>
+    <p class="purpose"><b>Purpose:</b> Starts in 24 hours. Join via your learning platform; bring questions.</p>
+    <p class="eyebrow">In-email banner: Tomorrow · Your session is approaching · Timing source: email copy: “Your session starts in 24 hours”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-b3.html</code> · LGV_Onboarding_WIP · Email 3 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-b3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-b3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-b3" data-src="launch-email-for-chris/vip-masterclass/jm-b3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-b3.html" target="_blank" rel="noopener">open JM-B3 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-b4"><div class="pin">4/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-B4</span><span class="tierpill">VIP $79</span><span class="time">About 2 hours before the session</span></div>
+    <div class="subject">Starting in two hours</div>
+    <p class="purpose"><b>Purpose:</b> Sign in to your learning platform to join.</p>
+    <p class="eyebrow">In-email banner: Today · Final details for your VIP masterclass · Timing source: email copy: “starts in about two hours”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-b4.html</code> · LGV_Onboarding_WIP · Email 4 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-b4.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-b4">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-b4" data-src="launch-email-for-chris/vip-masterclass/jm-b4.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-b4.html" target="_blank" rel="noopener">open JM-B4 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="stage"><h3>After the session · attended</h3></div>
+<div class="phase" id="vip-u"><h4>VIP follow-up · $249 Blueprint credit</h4><p class="trig">VIP $79 buyers only, after attending the 90-minute session. Code MASTERCLASS-VIP is applied by the button. Regular u1–u4 are not sent (VIP-only, per Chris).</p><p class="auto">ActiveCampaign automation <code>LGV_Onboarding_WIP (VIP follow-up)</code> · 4 emails · sent in this order</p>
+<div class="node" id="vip-jm-u1"><div class="pin">1/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-U1</span><span class="tierpill">VIP $79</span><span class="time tbd">After attending the session · email 1 of 4 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Thank you, %FIRSTNAME%. Your $249 credit is ready</div>
+    <p class="purpose"><b>Purpose:</b> Your VIP credit toward The Longevity Blueprint, code MASTERCLASS-VIP, applied through the button.</p>
+    <p class="eyebrow">In-email banner: VIP Next Step · $249 toward The Longevity Blueprint · Timing source: email copy: “thank you for spending 90 minutes with Julie”</p>
+    <p class="cta">Button: See The Blueprint</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-u1.html</code> · LGV_Onboarding_WIP (VIP follow-up) · Email 1 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-u1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-u1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-u1" data-src="launch-email-for-chris/vip-masterclass/jm-u1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-u1.html" target="_blank" rel="noopener">open JM-U1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-u2"><div class="pin">2/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-U2</span><span class="tierpill">VIP $79</span><span class="time tbd">After attending the session · email 2 of 4 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">What the masterclass couldn’t fit into 90 minutes</div>
+    <p class="purpose"><b>Purpose:</b> Inside the 18-lesson Longevity Blueprint, and what changes when you take it.</p>
+    <p class="eyebrow">In-email banner: The Full Program · The Longevity Blueprint, built around you · Timing source: email copy: “thank you for spending 90 minutes with Julie”</p>
+    <p class="cta">Button: Explore The Full Course</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-u2.html</code> · LGV_Onboarding_WIP (VIP follow-up) · Email 2 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-u2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-u2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-u2" data-src="launch-email-for-chris/vip-masterclass/jm-u2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-u2.html" target="_blank" rel="noopener">open JM-U2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-u3"><div class="pin">3/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-U3</span><span class="tierpill">VIP $79</span><span class="time tbd">After attending the session · email 3 of 4 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">The Blueprint, in numbers</div>
+    <p class="purpose"><b>Purpose:</b> What it costs, what your $249 credit changes, and the 14-day refund.</p>
+    <p class="eyebrow">In-email banner: Your Credit · $249 applied with code MASTERCLASS-VIP · Timing source: email copy: “thank you for spending 90 minutes with Julie”</p>
+    <p class="cta">Button: Use My $249 Credit</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-u3.html</code> · LGV_Onboarding_WIP (VIP follow-up) · Email 3 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-u3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-u3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-u3" data-src="launch-email-for-chris/vip-masterclass/jm-u3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-u3.html" target="_blank" rel="noopener">open JM-U3 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-u4"><div class="pin">4/4</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-U4</span><span class="tierpill">VIP $79</span><span class="time tbd">After attending the session · email 4 of 4 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Your $249 credit, and a person to talk to</div>
+    <p class="purpose"><b>Purpose:</b> A next step to explore soon, and a real person to talk it through with.</p>
+    <p class="eyebrow">In-email banner: Your Next Step · Explore your $249 credit soon · Timing source: email copy: “thank you for spending 90 minutes with Julie”</p>
+    <p class="cta">Button: Enroll With My Credit</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-u4.html</code> · LGV_Onboarding_WIP (VIP follow-up) · Email 4 of 4</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-u4.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-u4">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-u4" data-src="launch-email-for-chris/vip-masterclass/jm-u4.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-u4.html" target="_blank" rel="noopener">open JM-U4 directly</a>.</div></div></div>
+</article></div>
+</div>
+<div class="stage"><h3>After the session · missed</h3></div>
+<div class="phase" id="vip-x"><h4>No-show buyers</h4><p class="trig">Paid, did not attend — the attendance record shows the buyer was not in the room.</p><p class="auto">ActiveCampaign automation <code>LGV_No-Show Buyers_WIP</code> · 3 emails · sent in this order</p>
+<div class="node" id="vip-jm-x1"><div class="pin">1/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-X1</span><span class="tierpill">VIP $79</span><span class="time tbd">After the session, attendance record = not in the room · email 1 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">We missed you, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> You were not in the room. Here is where things stand, and how to reach us.</p>
+    <p class="eyebrow">In-email banner: Session Missed · Here is where things stand · Timing source: email copy: “Our attendance record shows you were not in the room”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-x1.html</code> · LGV_No-Show Buyers_WIP · Email 1 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-x1.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-x1">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-x1" data-src="launch-email-for-chris/vip-masterclass/jm-x1.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-x1.html" target="_blank" rel="noopener">open JM-X1 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-x2"><div class="pin">2/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-X2</span><span class="tierpill">VIP $79</span><span class="time tbd">After the session, attendance record = not in the room · email 2 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Your session information, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> Where to find your session information and materials, and how to reach us.</p>
+    <p class="eyebrow">In-email banner: Follow-Up · Your learning platform and how to reach us · Timing source: email copy: “Our attendance record shows you were not in the room”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-x2.html</code> · LGV_No-Show Buyers_WIP · Email 2 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-x2.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-x2">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-x2" data-src="launch-email-for-chris/vip-masterclass/jm-x2.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-x2.html" target="_blank" rel="noopener">open JM-X2 directly</a>.</div></div></div>
+</article></div>
+<div class="node" id="vip-jm-x3"><div class="pin">3/3</div>
+<article class="email">
+  <div class="meta"><div>
+    <div class="row"><span class="num">JM-X3</span><span class="tierpill">VIP $79</span><span class="time tbd">After the session, attendance record = not in the room · email 3 of 3 · delay per Chris&#x27;s automation</span></div>
+    <div class="subject">Still here if you need us, %FIRSTNAME%</div>
+    <p class="purpose"><b>Purpose:</b> A final follow-up on your missed session, and how to reach us.</p>
+    <p class="eyebrow">In-email banner: Final Follow-Up · Reply if you need help with your booking · Timing source: email copy: “Our attendance record shows you were not in the room”</p>
+    <p class="cta">Button: Open My Learning Platform</p>
+    <p class="src">File <code>launch-email-for-chris/vip-masterclass/jm-x3.html</code> · LGV_No-Show Buyers_WIP · Email 3 of 3</p>
+  </div><div class="actions">
+    <a class="btn" href="launch-email-for-chris/vip-masterclass/jm-x3.html" target="_blank" rel="noopener">Open email</a>
+    <a class="btn" href="launch-email-for-chris/#vip-masterclass-jm-x3">Copy / download</a>
+  </div></div>
+  <div class="frame"><div class="fit"><iframe title="vip-masterclass jm-x3" data-src="launch-email-for-chris/vip-masterclass/jm-x3.html" loading="lazy" scrolling="no"></iframe><div class="fallback">If the email does not render here, <a href="launch-email-for-chris/vip-masterclass/jm-x3.html" target="_blank" rel="noopener">open JM-X3 directly</a>.</div></div></div>
+</article></div>
+</div>
+</section>
+</main>
+<footer>Built from the repo only — FACTS.md, launch-email-for-chris/README.md, AUDIT-CHECKLIST.md and the 36 email files. 30 of 36 emails have no send delay written in the repo and are marked “per Chris's automation” (all abandoned-cart, onboarding email 1, VIP follow-up and no-show emails). Stated cadence: 3 days before → 24 hours before → 2 hours before the session (onboarding b2–b4; also announced in VIP b1). <a href="index.html">Back to the gallery</a>.</footer>
+<script>
+(function(){
+  var W=640, frames=[].slice.call(document.querySelectorAll('iframe[data-src]'));
+  function fit(f){
+    try{ var d=f.contentDocument; if(d&&d.body){ var h=Math.max(d.documentElement.scrollHeight,d.body.scrollHeight); if(h>200){ f.dataset.h=h; f.style.height=(h+8)+'px'; } } }catch(e){}
+    scale(f);
+  }
+  function scale(f){
+    var fitBox=f.parentNode, avail=fitBox.clientWidth||W, s=Math.min(1,avail/W), h=parseFloat(f.dataset.h||f.style.height||1900);
+    if(s<1){ f.style.transform='scale('+s+')'; fitBox.style.height=(h*s+8)+'px'; fitBox.style.overflow='hidden'; }
+    else { f.style.transform=''; fitBox.style.height=''; fitBox.style.overflow=''; }
+  }
+  function load(f){ if(f.src) return; f.src=f.getAttribute('data-src'); f.addEventListener('load',function(){ fit(f); setTimeout(function(){fit(f)},800); setTimeout(function(){fit(f)},2500); }); }
+  if('IntersectionObserver' in window){ var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ load(e.target); io.unobserve(e.target); } }); },{rootMargin:'1200px'}); frames.forEach(function(f){io.observe(f)}); } else frames.forEach(load);
+  var t; window.addEventListener('resize',function(){ clearTimeout(t); t=setTimeout(function(){ frames.forEach(function(f){ if(f.src) fit(f); else scale(f); }); },120); });
+  frames.forEach(scale);
+  // scroll-spy: highlight current segment in the switcher
+  var links=[].slice.call(document.querySelectorAll('nav.switch a.seg'));
+  var secs=[].slice.call(document.querySelectorAll('section.segment'));
+  function spy(){ var y=window.scrollY+140, cur=secs[0]; secs.forEach(function(s){ if(s.offsetTop<=y) cur=s; }); links.forEach(function(a){ a.style.borderColor = (a.getAttribute('href')==='#'+cur.id)? 'var(--gold)':''; }); }
+  window.addEventListener('scroll',spy,{passive:true}); spy();
+})();
+</script>
+</body></html>
