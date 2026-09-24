@@ -1,9 +1,4 @@
 file,field,before,after,reason
-blueprint-vip/jm-a1-1.html,title,"<title>Your enrollment is being held, %FIRSTNAME% &middot; Longevity Life Academy</title>",<title>One step left on your Blueprint enrollment &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a1-1.html,preheader,"<div class=""preheader"">One click brings you back. Your Blueprint enrollment is almost done.</div>","<div class=""preheader"">Your details are saved. Choose your plan and start date to finish enrolling.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a1-1.html,alert,"<div class=""alert""><b>Enrollment Held</b>&middot;&nbsp; Your enrollment is saved and waiting</div>","<div class=""alert""><b>Almost There</b>&middot;&nbsp; Your details are saved. Next: plan and start date</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a1-1.html,headline,<h1>Your enrollment is <em>held</em></h1>,<h1>One step from <em>your Blueprint</em></h1>,Stage/tier-specific heading.
-blueprint-vip/jm-a1-1.html,body_paragraphs,"
     <p>Hi %FIRSTNAME%, you started enrolling in The Longevity Blueprint, and we are holding your place.</p>
       <p>Everything you entered is saved. <strong>One click brings you right back</strong> to where you stopped, and finishing takes less than two minutes.</p>
       <p>Your enrollment covers <strong>18 live lessons</strong> plus a free 90-minute VIP masterclass on {{session_date}} with Julie Gibson Clark, ranked <strong>No.&nbsp;2 in the world</strong> for slowing aging.</p>
@@ -16,10 +11,6 @@ blueprint-vip/jm-a1-1.html,body_paragraphs,"
       <p>Your enrollment is <strong>$179 × 5 monthly payments</strong>, with a 14-day refund from registration.</p>
       <p>Live cohorts have limited capacity, so pick your start date soon. We have your details, so all that is left is your plan, your date and a quick checkout.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a1-1.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_name_details&utm_content=jm-a1-1"">Finish My Registration</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_name_details&amp;utm_content=jm-a1-1"">Continue My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a1-1.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_name_details&utm_content=jm-a1-1"">Finish My Registration</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_name_details&amp;utm_content=jm-a1-1"">Continue My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a1-1.html,cta_supporting_copy,"<p class=""btn-meta"">It takes less than two minutes.</p>","<p class=""btn-meta"">Plan and start date come next.</p>",Match new destination.
-blueprint-vip/jm-a1-1.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Held Enrollment</p>
       <table role=""presentation"">
         <tr><td class=""k"">Course</td><td class=""v"">The Longevity Blueprint + VIP Masterclass</td></tr>
@@ -38,14 +29,6 @@ blueprint-vip/jm-a1-1.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Next step</td><td class=""v"">choose your plan and start date</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a1-1.html,small_print,"<p class=""small"">Your details are saved. You will pick up exactly where you left off.</p>","<p class=""small"">We have your details. All that is left is your plan, your start date and a quick checkout.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a1-1.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a1-1_approved_1200x700_v5.jpg"" alt=""Your seat is held hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a1-1_approved_1200x700_v5.jpg"" alt=""One step from your Blueprint — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a1-1.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_Name_Details | Email 1 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a1-1 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-a1-2.html,title,<title>The woman aging 34% slower than her calendar &middot; Longevity Life Academy</title>,<title>Who is teaching you: Julie Gibson Clark &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a1-2.html,preheader,"<div class=""preheader"">Why thousands follow Julie Gibson Clark, and what your Blueprint is built on.</div>","<div class=""preheader"">Verified pace of aging 0.665, a $100-a-month routine, and the Blueprint you started.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a1-2.html,alert,"<div class=""alert""><b>Verified Results</b>&middot;&nbsp; Ranked No. 2 in the Rejuvenation Olympics</div>","<div class=""alert""><b>Verified Results</b>&middot;&nbsp; Ranked No. 2, Rejuvenation Olympics</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a1-2.html,headline,"<h1>Aging <em>34% slower</em>, live on Zoom</h1>","<h1>Aging slower, <em>live on Zoom</em></h1>",Stage/tier-specific heading.
-blueprint-vip/jm-a1-2.html,body_paragraphs,"
     <p>%FIRSTNAME%, before you decide, here is exactly who will be teaching you.</p>
       <p>Julie Gibson Clark&rsquo;s verified pace of aging is <strong>0.665</strong>, meaning she ages about <strong>6.5 years every decade</strong>. That places her <strong>No.&nbsp;2 in the world</strong> in the Rejuvenation Olympics, ahead of Bryan Johnson, who spends millions each year.</p>
       <p>Her routine costs about <strong>$100 a month</strong>. That contrast is why Fortune, Business Insider and The Sun keep writing about her.</p>
@@ -58,10 +41,6 @@ blueprint-vip/jm-a1-2.html,body_paragraphs,"
       <p>Your complimentary <strong>VIP Masterclass Access</strong> gives you her 60-minute masterclass plus a private 30-minute Q&amp;A, alongside your 18-lesson Blueprint course.</p>
       <p>Your enrollment is <strong>$179 × 5 monthly payments</strong>. Choose your plan and start date to finish.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a1-2.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_name_details&utm_content=jm-a1-2"">Take My Seat</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_name_details&amp;utm_content=jm-a1-2"">Continue My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a1-2.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_name_details&utm_content=jm-a1-2"">Take My Seat</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_name_details&amp;utm_content=jm-a1-2"">Continue My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a1-2.html,cta_supporting_copy,"<p class=""btn-meta"">Your registration continues where you stopped.</p>","<p class=""btn-meta"">Plan and start date come next.</p>",Match new destination.
-blueprint-vip/jm-a1-2.html,details_table,"<div class=""details"">
       <p class=""dh"">The Proof</p>
       <table role=""presentation"">
         <tr><td class=""k"">Instructor</td><td class=""v"">Julie Gibson Clark</td></tr>
@@ -80,14 +59,6 @@ blueprint-vip/jm-a1-2.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Next step</td><td class=""v"">choose your plan and start date</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a1-2.html,small_print,"<p class=""small"">Julie's pace-of-aging results are independently verified through DunedinPACE testing.</p>","<p class=""small"">Julie’s pace-of-aging results are verified through DunedinPACE testing.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a1-2.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a1-2_approved_1200x700_v5.jpg"" alt=""Aging 34% slower, live on Zoom hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a1-2_approved_1200x700_v5.jpg"" alt=""Aging slower, live on Zoom — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a1-2.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_Name_Details | Email 2 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a1-2 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-a1-3.html,title,<title>Last call before your held enrollment is released &middot; Longevity Life Academy</title>,<title>Still deciding? Your Blueprint is one step away &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a1-3.html,preheader,"<div class=""preheader"">The cohort is filling. Your enrollment is one click from done.</div>","<div class=""preheader"">Your details are saved. Choose your plan and start date soon, while places remain.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a1-3.html,alert,"<div class=""alert""><b>Final Reminder</b>&middot;&nbsp; Your held enrollment is released soon</div>","<div class=""alert""><b>Final Reminder</b>&middot;&nbsp; Choose your start date soon</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a1-3.html,headline,"<h1>Last <em>call</em>, %FIRSTNAME%</h1>","<h1>Your start date, <em>soon</em></h1>",Stage/tier-specific heading.
-blueprint-vip/jm-a1-3.html,body_paragraphs,"
     <p>This is the last note we will send about the enrollment we are holding for you.</p>
       <p>The cohort is filling, and held places go back to the pool for the next person. <strong>After today, we release yours.</strong></p>
       <p>Plainly: the 36% launch rate, <strong>$179 &times; 5, your $79 masterclass back as two weeks free</strong>, holds while the cohort is open. Waiting gains nothing.</p>
@@ -98,10 +69,6 @@ blueprint-vip/jm-a1-3.html,body_paragraphs,"
       <p>Worth saying plainly: <strong>$179 × 5 monthly payments</strong>, 18 lessons, VIP Masterclass Access complimentary, and a 14-day refund from registration.</p>
       <p>If the Blueprint is not for you, ignore this email and we will not nudge you about it again. If it is, <strong>choosing your plan and start date takes a minute</strong>, and the checkout follows.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a1-3.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_name_details&utm_content=jm-a1-3"">Complete My Registration</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_name_details&amp;utm_content=jm-a1-3"">Continue My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a1-3.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_name_details&utm_content=jm-a1-3"">Complete My Registration</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_name_details&amp;utm_content=jm-a1-3"">Continue My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a1-3.html,cta_supporting_copy,"<p class=""btn-meta"">Less than two minutes, exactly where you left off.</p>","<p class=""btn-meta"">Plan and start date come next.</p>",Match new destination.
-blueprint-vip/jm-a1-3.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Held Enrollment</p>
       <table role=""presentation"">
         <tr><td class=""k"">Course</td><td class=""v"">The Longevity Blueprint + VIP Masterclass</td></tr>
@@ -118,14 +85,6 @@ blueprint-vip/jm-a1-3.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Next step</td><td class=""v"">choose your plan and start date</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a1-3.html,small_print,"<p class=""small"">After your place is released, you can still enroll while the cohort is open.</p>","<p class=""small"">You can enroll any time while cohort places remain open.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a1-3.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a1-3_approved_1200x700_v5.jpg"" alt=""Last call, %FIRSTNAME% hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a1-3_approved_1200x700_v5.jpg"" alt=""Your start date, soon — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a1-3.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_Name_Details | Email 3 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a1-3 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-a2-1.html,title,"<title>%FIRSTNAME%, your session on {{session_date}} is waiting &middot; Longevity Life Academy</title>",<title>Your plan is chosen. One step finishes enrolling &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a2-1.html,preheader,"<div class=""preheader"">You picked your date. It is saved, and one click completes it.</div>","<div class=""preheader"">Your plan and start date are chosen. One step completes your Blueprint enrollment.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a2-1.html,alert,"<div class=""alert""><b>Almost Enrolled</b>&middot;&nbsp; One step remains on your registration</div>","<div class=""alert""><b>Almost Booked</b>&middot;&nbsp; Your plan and date are chosen; one step remains</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a2-1.html,headline,<h1>Your date is <em>waiting</em></h1>,<h1>Your plan is <em>chosen</em></h1>,Stage/tier-specific heading.
-blueprint-vip/jm-a2-1.html,body_paragraphs,"
     <p>Hi %FIRSTNAME%, you chose your session, <strong>{{session_date}}</strong>, and then something pulled you away.</p>
       <p>The good news: <strong>your chosen date is saved</strong>. Everything is exactly where you left it, one click from done.</p>
       <p>That date is your <strong>free 90-minute VIP masterclass with Julie Gibson Clark</strong>, included with your enrollment. She teaches her complete protocol in one sitting, from her sleep system to her plate to the roughly $100-a-month supplement stack, then a 30-minute Q&amp;A.</p>
@@ -136,10 +95,6 @@ blueprint-vip/jm-a2-1.html,body_paragraphs,"
       <p>The Blueprint is the complete <strong>18-lesson course</strong>: protocol library, video vault, a continuous glucose monitor, community and 1:1 coaching, with VIP Masterclass Access with Julie included complimentary.</p>
       <p>It is <strong>$179 × 5 monthly payments</strong>, with a 14-day refund from registration. Finish soon while the start date you chose is still open.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a2-1.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-1"">Lock In My Date</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-1"">Finish My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a2-1.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-1"">Lock In My Date</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-1"">Finish My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a2-1.html,cta_supporting_copy,"<p class=""btn-meta"">Your date is saved until we have to release it.</p>","<p class=""btn-meta"">Straight to the Blueprint checkout.</p>",Match new destination.
-blueprint-vip/jm-a2-1.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Session</p>
       <table role=""presentation"">
         <tr><td class=""k"">Your date</td><td class=""v"">{{session_date}}</td></tr>
@@ -156,14 +111,6 @@ blueprint-vip/jm-a2-1.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Status</td><td class=""v"">chosen, not yet enrolled</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a2-1.html,small_print,"<p class=""small"">You will return to the exact step where you stopped.</p>","<p class=""small"">Your place is confirmed only when your first payment completes.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a2-1.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a2-1_approved_1200x700_v5.jpg"" alt=""Your date is waiting hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a2-1_approved_1200x700_v5.jpg"" alt=""Your plan is chosen — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a2-1.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_Course_Details | Email 1 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a2-1 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-a2-2.html,title,<title>Seats for {{session_date}} are filling &middot; Longevity Life Academy</title>,<title>Finish enrolling: your start date is chosen &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a2-2.html,preheader,"<div class=""preheader"">Your chosen session is filling up. Your place is still saved.</div>","<div class=""preheader"">Your plan and start date are chosen. Finish your Blueprint enrollment in a minute.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a2-2.html,alert,"<div class=""alert""><b>Live On Zoom</b>&middot;&nbsp; 90 minutes with Julie, questions answered live</div>","<div class=""alert""><b>Live On Zoom</b>&middot;&nbsp; Your course, plus 90 minutes live with Julie</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a2-2.html,headline,<h1>Your session is <em>filling</em></h1>,"<h1>Live, <em>not a recording</em></h1>",Stage/tier-specific heading.
-blueprint-vip/jm-a2-2.html,body_paragraphs,"
     <p>%FIRSTNAME%, the session you picked, <strong>{{session_date}}</strong>, is filling up.</p>
       <p>This is <strong>live, not a recording</strong>. That is the whole point: Julie Gibson Clark teaching in real time, on the day, with you in the room.</p>
       <p>Students rate the academy <strong>4.6 out of 5 on Trustpilot</strong>, across 600+ reviews, largely for the teaching.</p>
@@ -176,10 +123,6 @@ blueprint-vip/jm-a2-2.html,body_paragraphs,"
       <p>Finishing takes <strong>about a minute</strong>: return to the Blueprint checkout and complete your enrollment.</p>
       <p>If your start date no longer works, pick another cohort at checkout. Either way, do not leave it too long: live cohorts have limited capacity.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a2-2.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-2"">Secure My Seat</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-2"">Finish My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a2-2.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-2"">Secure My Seat</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-2"">Finish My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a2-2.html,cta_supporting_copy,"<p class=""btn-meta"">One click, about one minute.</p>","<p class=""btn-meta"">Straight to the Blueprint checkout.</p>",Match new destination.
-blueprint-vip/jm-a2-2.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Session</p>
       <table role=""presentation"">
         <tr><td class=""k"">Your date</td><td class=""v"">{{session_date}}</td></tr>
@@ -196,14 +139,6 @@ blueprint-vip/jm-a2-2.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Status</td><td class=""v"">not yet enrolled</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a2-2.html,small_print,"<p class=""small"">When a session fills, it closes.</p>","<p class=""small"">Live cohorts have limited capacity.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a2-2.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a2-2_approved_1200x700_v5.jpg"" alt=""Your session is filling hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a2-2_approved_1200x700_v5.jpg"" alt=""Live, not a recording — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a2-2.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_Course_Details | Email 2 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a2-2 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-a2-3.html,title,"<title>Tonight, the seat next to your name goes back &middot; Longevity Life Academy</title>",<title>Finish your Blueprint enrollment soon &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a2-3.html,preheader,"<div class=""preheader"">Final call for your chosen session. One click keeps it.</div>","<div class=""preheader"">A last note about your Blueprint enrollment. Finishing takes a minute.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a2-3.html,alert,"<div class=""alert""><b>Last Call</b>&middot;&nbsp; Your saved place will not be held again</div>","<div class=""alert""><b>Last Note</b>&middot;&nbsp; Finish your enrollment soon</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a2-3.html,headline,"<h1>One seat, <em>your</em> name on it</h1>","<h1>Your enrollment, <em>soon</em></h1>",Stage/tier-specific heading.
-blueprint-vip/jm-a2-3.html,body_paragraphs,"
     <p>%FIRSTNAME%, this is the last word about the seat reserved next to your name for <strong>{{session_date}}</strong>.</p>
       <p>Tonight it goes back into the pool, because these sessions fill and others are waiting.</p>
       <p>Here is what stays true either way: <strong>90 minutes, live on Zoom</strong>, with Julie Gibson Clark walking through the whole routine that keeps her aging <strong>34% slower</strong> than her calendar, then a 30-minute Q&amp;A. No replay is planned.</p>
@@ -216,10 +151,6 @@ blueprint-vip/jm-a2-3.html,body_paragraphs,"
       <p>The terms are simple: <strong>$179 × 5 monthly payments</strong>, with a 14-day refund from registration.</p>
       <p>One click takes you back to the Blueprint checkout; finishing takes about a minute.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a2-3.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-3"">Keep My Seat</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-3"">Finish My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a2-3.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-3"">Keep My Seat</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-3"">Finish My Enrollment</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a2-3.html,cta_supporting_copy,"<p class=""btn-meta"">Your date and details are still saved.</p>","<p class=""btn-meta"">Straight to the Blueprint checkout.</p>",Match new destination.
-blueprint-vip/jm-a2-3.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Reserved Seat</p>
       <table role=""presentation"">
         <tr><td class=""k"">Your date</td><td class=""v"">{{session_date}}</td></tr>
@@ -234,13 +165,6 @@ blueprint-vip/jm-a2-3.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Status</td><td class=""v"">not yet enrolled</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a2-3.html,small_print,"<p class=""small"">If the date no longer suits you, the other session can be selected on the same page.</p>","<p class=""small"">If the start date no longer suits you, another cohort can be selected at checkout.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a2-3.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a2-3_approved_1200x700_v5.jpg"" alt=""One seat, your name on it hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a2-3_approved_1200x700_v5.jpg"" alt=""Your enrollment, soon — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a2-3.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_Course_Details | Email 3 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a2-3 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-a3-1.html,title,"<title>Your payment didn't go through, %FIRSTNAME% &middot; Longevity Life Academy</title>",<title>Your Blueprint order is set up. Complete payment &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a3-1.html,preheader,"<div class=""preheader"">Everything is saved. Finishing takes under a minute.</div>","<div class=""preheader"">Order and date saved, nothing charged. Payment takes about a minute.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a3-1.html,alert,"<div class=""alert""><b>Payment Not Completed</b>&middot;&nbsp; Your seat is still reserved for now</div>","<div class=""alert""><b>Payment Not Completed</b>&middot;&nbsp; Your order is set up; nothing has been charged</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a3-1.html,body_paragraphs,"
     <p>Hi %FIRSTNAME%, you were one step from done. Your details and your session, <strong>{{session_date}}</strong>, are saved. Only the payment did not go through.</p>
       <p>It happens, a card timeout, a page closed too soon, a bank check that took a moment too long. Nothing was charged, and nothing was lost. You are not starting over: the page remembers everything except the payment.</p>
       <p>The checkout is <strong>secure and takes under a minute</strong>: Visa, Mastercard, Amex, PayPal or Google Pay. Once complete, your enrollment is confirmed and your Zoom invitation sent.</p>
@@ -251,10 +175,6 @@ blueprint-vip/jm-a3-1.html,body_paragraphs,"
       <p>The checkout is <strong>secure and takes about a minute</strong>, by card or PayPal. The moment it completes, your enrollment is confirmed and your confirmation follows by email.</p>
       <p>Your order is <strong>$179 × 5 monthly payments</strong>: 18 lessons, VIP Masterclass Access complimentary, 14-day refund from registration.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a3-1.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-1"">Complete My Payment</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-1"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a3-1.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-1"">Complete My Payment</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-1"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a3-1.html,cta_supporting_copy,"<p class=""btn-meta"">Secure checkout, under one minute.</p>","<p class=""btn-meta"">Card or PayPal, about one minute.</p>",Match new destination.
-blueprint-vip/jm-a3-1.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Order</p>
       <table role=""presentation"">
         <tr><td class=""k"">VIP masterclass</td><td class=""v"">{{session_date}}</td></tr>
@@ -271,14 +191,6 @@ blueprint-vip/jm-a3-1.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Includes</td><td class=""v"">VIP masterclass, complimentary</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a3-1.html,small_print,"<p class=""small"">Nothing has been charged. Your seat is confirmed only after payment completes.</p>","<p class=""small"">Nothing has been charged. Your place is confirmed only after payment. 14-day refund from registration.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a3-1.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a3-1_approved_1200x700_v5.jpg"" alt=""Almost enrolled hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a3-1_approved_1200x700_v5.jpg"" alt=""Almost enrolled — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a3-1.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_No_Payment | Email 1 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a3-1 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-a3-2.html,title,<title>Your held seat is about to expire &middot; Longevity Life Academy</title>,<title>One minute completes your Blueprint order &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a3-2.html,preheader,"<div class=""preheader"">Your date is saved, your payment is not. One minute closes the gap.</div>","<div class=""preheader"">Your order and date are saved; only the payment is missing. Card or PayPal, about a minute.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a3-2.html,alert,"<div class=""alert""><b>What You Receive</b>&middot;&nbsp; The full Blueprint course, VIP masterclass free</div>","<div class=""alert""><b>What You Receive</b>&middot;&nbsp; The full Blueprint course, VIP masterclass included</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a3-2.html,headline,<h1>Your seat is <em>expiring</em></h1>,<h1>Your order is <em>almost complete</em></h1>,Stage/tier-specific heading.
-blueprint-vip/jm-a3-2.html,body_paragraphs,"
     <p>%FIRSTNAME%, your seat for <strong>{{session_date}}</strong> is still being held, but not for much longer.</p>
       <p>You did everything except the last step. Your name, your date, your order, all saved. <strong>One minute of checkout</strong> stands between you and your Blueprint, plus 90 minutes with Julie Gibson Clark.</p>
       <p>If hesitation is about the money: <strong>$179 &times; 5, your $79 masterclass back as two weeks free</strong>, with a <strong>14-day refund policy</strong> on the course.</p>
@@ -289,10 +201,6 @@ blueprint-vip/jm-a3-2.html,body_paragraphs,"
       <p>If hesitation is about the money: <strong>$179 × 5 monthly payments</strong>, with a <strong>14-day refund</strong> from registration.</p>
       <p>Nothing has been charged. Pay by <strong>card or PayPal</strong> and your place in the cohort is confirmed, with the VIP masterclass with Julie included.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a3-2.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-2"">Finish Checkout</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-2"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a3-2.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-2"">Finish Checkout</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-2"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a3-2.html,cta_supporting_copy,"<p class=""btn-meta"">You return straight to the payment step.</p>","<p class=""btn-meta"">Card or PayPal, about one minute.</p>",Match new destination.
-blueprint-vip/jm-a3-2.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Order</p>
       <table role=""presentation"">
         <tr><td class=""k"">VIP masterclass</td><td class=""v"">{{session_date}}</td></tr>
@@ -309,14 +217,6 @@ blueprint-vip/jm-a3-2.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Payment</td><td class=""v"">not completed</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a3-2.html,small_print,"<p class=""small"">Your order details remain saved until the hold expires.</p>","<p class=""small"">Your order details are saved. Nothing is charged until you complete payment.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a3-2.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a3-2_approved_1200x700_v5.jpg"" alt=""Your seat is expiring hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a3-2_approved_1200x700_v5.jpg"" alt=""Your order is almost complete — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a3-2.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_No_Payment | Email 2 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a3-2 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-a3-3.html,title,<title>We release your seat tonight &middot; Longevity Life Academy</title>,<title>Complete your Blueprint order soon &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-a3-3.html,preheader,"<div class=""preheader"">Last chance to complete your enrollment before the hold ends.</div>","<div class=""preheader"">A last note about the order you set up. Nothing charged yet; payment takes a minute.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-a3-3.html,alert,"<div class=""alert""><b>Closing Soon</b>&middot;&nbsp; Complete payment to keep your seat</div>","<div class=""alert""><b>Last Note</b>&middot;&nbsp; Complete payment soon to secure your place</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-a3-3.html,headline,<h1>Released <em>tonight</em></h1>,<h1>Complete your order <em>soon</em></h1>,Stage/tier-specific heading.
-blueprint-vip/jm-a3-3.html,body_paragraphs,"
     <p>%FIRSTNAME%, tonight your held seat for <strong>{{session_date}}</strong> goes back into the pool.</p>
       <p>This is the final email about it. After tonight, your saved order expires, and the seat opens to the next person in line. We would honestly rather it stayed yours, you did almost all the work already.</p>
       <p>The 36% launch rate, <strong>$179 &times; 5, your $79 masterclass back as two weeks free</strong>, ends when the cohort fills. Your details and chosen date are saved, so finishing takes a single step from any device.</p>
@@ -327,10 +227,6 @@ blueprint-vip/jm-a3-3.html,body_paragraphs,"
       <p><strong>$179 × 5 monthly payments</strong>, 14-day refund from registration. Your details, plan and start date are saved, so finishing is a single step from any device: card or PayPal, about a minute.</p>
       <p>One minute. One payment. And your <strong>Blueprint</strong> begins in your learning platform, with 90 minutes live with Julie Gibson Clark included.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-a3-3.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-3"">Take My Seat Back</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-3"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a3-3.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-3"">Take My Seat Back</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-3"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-a3-3.html,cta_supporting_copy,"<p class=""btn-meta"">Straight to the payment step, under one minute.</p>","<p class=""btn-meta"">Card or PayPal, about one minute.</p>",Match new destination.
-blueprint-vip/jm-a3-3.html,details_table,"<div class=""details"">
       <p class=""dh"">Final Status</p>
       <table role=""presentation"">
         <tr><td class=""k"">VIP masterclass</td><td class=""v"">{{session_date}}</td></tr>
@@ -345,13 +241,6 @@ blueprint-vip/jm-a3-3.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Payment</td><td class=""v"">not completed</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-a3-3.html,small_print,"<p class=""small"">After tonight you can still enroll while open seats remain, but your saved order will be gone.</p>","<p class=""small"">You can still enroll later while cohort places remain, but this is our last reminder about this order.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-a3-3.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a3-3_approved_1200x700_v5.jpg"" alt=""Released tonight hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-a3-3_approved_1200x700_v5.jpg"" alt=""Complete your order soon — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-a3-3.html,ac_install_comment,,"<!-- AC: LGV_Abandoned_Cart_No_Payment | Email 3 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-a3-3 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-b1.html,title,<title>You're in. Here's everything you need &middot; Longevity Life Academy</title>,<title>Welcome to The Longevity Blueprint &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-b1.html,preheader,"<div class=""preheader"">Your Blueprint enrollment is confirmed. Your VIP masterclass Zoom link is inside.</div>","<div class=""preheader"">Your enrollment is confirmed. Your learning platform has your lessons and materials.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-b1.html,alert,"<div class=""alert""><b>Enrollment Confirmed</b>&middot;&nbsp; Your Zoom link is inside</div>","<div class=""alert""><b>Enrollment Confirmed</b>&middot;&nbsp; Your learning platform is ready</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-b1.html,body_paragraphs,"
     <p>Your Blueprint enrollment is confirmed. On <strong>{{session_date}}</strong>, you join Julie Gibson Clark live for your VIP Masterclass.</p>
       <p>Here is the one thing to do right now: <strong>save this email</strong>. Your Zoom link is below, and it will not change. Add the session to your calendar.</p>
       <p>We will also send a preparation note, a reminder the day before, and one two hours before we start.</p>
@@ -362,10 +251,6 @@ blueprint-vip/jm-b1.html,body_paragraphs,"
       <p>We will also send a preparation note, a reminder the day before, and one two hours before we start.</p>
       <p>Your course is <strong>18 lessons</strong>, with the protocol library, video vault, a continuous glucose monitor, community and 1:1 coaching. The VIP masterclass is <strong>90 minutes</strong>: the 60-minute class, then a private 30-minute Q&amp;A, so bring your questions.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-b1.html,primary_cta_1,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b1"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-b1.html,primary_cta_2,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b1"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-b1.html,cta_supporting_copy,"<p class=""btn-meta"">Bookmark this email. The link stays the same.</p>","<p class=""btn-meta"">Need help signing in? Reply to this email.</p>",Match new destination.
-blueprint-vip/jm-b1.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Session</p>
       <table role=""presentation"">
         <tr><td class=""k"">Date</td><td class=""v"">{{session_date}}</td></tr>
@@ -382,14 +267,6 @@ blueprint-vip/jm-b1.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Order</td><td class=""v"">$179 × 5 monthly payments</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-b1.html,small_print,"<p class=""small"">Your receipt, course details and CGM shipping follow separately. Questions? Just reply to this email.</p>","<p class=""small"">Your receipt is sent separately. Questions? Just reply to this email.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-b1.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-b1_approved_1200x700_v5.jpg"" alt=""Welcome, %FIRSTNAME%. You&rsquo;re in hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-b1_approved_1200x700_v5.jpg"" alt=""Welcome, %FIRSTNAME%. You’re in — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-b1.html,ac_install_comment,,"<!-- AC: LGV_Onboarding_WIP | Email 1 of 4 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-b1 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-b2.html,title,<title>Three days to go. Here's how to prepare &middot; Longevity Life Academy</title>,<title>Three days to your VIP masterclass with Julie &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-b2.html,preheader,"<div class=""preheader"">What Julie will cover, and the questions to bring for your Q&amp;A.</div>","<div class=""preheader"">What Julie will cover, and the questions to bring for your private Q&amp;A.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-b2.html,alert,"<div class=""alert""><b>Prepare For Class</b>&middot;&nbsp; What to bring to your live session</div>","<div class=""alert""><b>Prepare For Class</b>&middot;&nbsp; What to bring to your VIP masterclass</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-b2.html,headline,<h1>Three days to <em>Julie</em></h1>,<h1>Three days <em>to Julie</em></h1>,Stage/tier-specific heading.
-blueprint-vip/jm-b2.html,body_paragraphs,"
     <p>%FIRSTNAME%, your masterclass is on <strong>{{session_date}}</strong>. Here is how to get the most out of it.</p>
       <p>Julie will teach her complete protocol: the sleep system that runs from a 5:00 AM wake to lights out at 9:00 PM, her plate architecture, the roughly <strong>$100-a-month supplement stack</strong> item by item, and the testing she uses to prove it all works. Expect specifics, not philosophy: what she takes, what she skips, and what the numbers say.</p>
       <p><strong>Give your sleep and food habits a moment of thought beforehand</strong>, and note your questions for the 30-minute Q&amp;A.</p>
@@ -400,10 +277,6 @@ blueprint-vip/jm-b2.html,body_paragraphs,"
       <p><strong>Note your questions beforehand</strong> for the private 30-minute Q&amp;A, and give your sleep and food habits a moment of thought.</p>
       <p>Set up somewhere quiet, keep a notebook nearby, and sign in to your learning platform a few minutes early; that is where you join the session, and where The Longevity Blueprint lessons, materials and recordings live.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-b2.html,primary_cta_1,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b2"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-b2.html,primary_cta_2,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b2"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-b2.html,cta_supporting_copy,"<p class=""btn-meta"">Same link as your confirmation email.</p>","<p class=""btn-meta"">Sign in a few minutes early.</p>",Match new destination.
-blueprint-vip/jm-b2.html,details_table,"<div class=""details"">
       <p class=""dh"">Get Ready</p>
       <table role=""presentation"">
         <tr><td class=""k"">Date</td><td class=""v"">{{session_date}}</td></tr>
@@ -420,12 +293,6 @@ blueprint-vip/jm-b2.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Tip</td><td class=""v"">sign in 5 minutes early</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-b2.html,small_print,"<p class=""small"">Can't make it anymore? Reply to this email and we will help.</p>","<p class=""small"">Can’t make it anymore? Reply to this email and we will help.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-b2.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-b2_approved_1200x700_v5.jpg"" alt=""Three days to Julie hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-b2_approved_1200x700_v5.jpg"" alt=""Three days to Julie — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-b2.html,ac_install_comment,,"<!-- AC: LGV_Onboarding_WIP | Email 2 of 4 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-b2 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-b3.html,title,<title>Tomorrow: your live session with Julie &middot; Longevity Life Academy</title>,<title>Tomorrow: your VIP masterclass with Julie &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-b3.html,preheader,"<div class=""preheader"">Your VIP masterclass starts in 24 hours. Your link is inside.</div>","<div class=""preheader"">Your VIP masterclass starts in 24 hours. Join via your learning platform.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-b3.html,body_paragraphs,"
     <p>%FIRSTNAME%, tomorrow is the day: <strong>{{session_date}}</strong>.</p>
       <p>Julie Gibson Clark, live, walking you through the exact routine that keeps her <strong>No.&nbsp;2 in the world</strong> for slowing aging, from start to finish. Her verified pace of aging is <strong>0.665</strong>, roughly 6.5 years per decade, and tomorrow she explains exactly how she does it.</p>
       <p>Your Zoom link is below. <strong>Join five minutes early</strong>. Julie opens by setting out the plan and closes with a 30-minute Q&amp;A, so bring questions.</p>
@@ -438,10 +305,6 @@ blueprint-vip/jm-b3.html,body_paragraphs,"
       <p>Have a notebook, your questions and a quiet room ready. It is live, so the session itself is everything; The Longevity Blueprint lessons continue in your learning platform.</p>
       <p>That is all. See you tomorrow.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-b3.html,primary_cta_1,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b3"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-b3.html,primary_cta_2,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b3"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-b3.html,cta_supporting_copy,"<p class=""btn-meta"">Add it to your calendar if you haven't yet.</p>","<p class=""btn-meta"">Add it to your calendar if you haven’t yet.</p>",Match new destination.
-blueprint-vip/jm-b3.html,details_table,"<div class=""details"">
       <p class=""dh"">Tomorrow</p>
       <table role=""presentation"">
         <tr><td class=""k"">Date</td><td class=""v"">{{session_date}}</td></tr>
@@ -456,12 +319,6 @@ blueprint-vip/jm-b3.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Length</td><td class=""v"">90 minutes, incl. private Q&amp;A</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-b3.html,small_print,"<p class=""small"">This is a live session. No replay will be available.</p>","<p class=""small"">This is a live session. Join through your learning platform.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-b3.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-b3_approved_1200x700_v5.jpg"" alt=""See you tomorrow hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-b3_approved_1200x700_v5.jpg"" alt=""See you tomorrow — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-b3.html,ac_install_comment,,"<!-- AC: LGV_Onboarding_WIP | Email 3 of 4 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-b3 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-b4.html,preheader,"<div class=""preheader"">Here's your link. See you inside.</div>","<div class=""preheader"">Sign in to your learning platform to join.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-b4.html,alert,"<div class=""alert""><b>Today</b>&middot;&nbsp; Final details for your live masterclass</div>","<div class=""alert""><b>Today</b>&middot;&nbsp; Final details for your VIP masterclass</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-b4.html,body_paragraphs,"
     <p>%FIRSTNAME%, your VIP masterclass with Julie Gibson Clark starts in about <strong>two hours</strong>. Everything you need is right here.</p>
       <p>One click below takes you into the room. <strong>Join a few minutes early</strong>: Julie opens by setting the plan for the 90 minutes, and cameras stay optional, so come as you are.</p>
       <p>A quick checklist while you wait: a quiet spot, a glass of water, a notebook, and your questions. <strong>The session is packed with specifics</strong>, and today&rsquo;s notes are the ones you will use for years.</p>
@@ -474,10 +331,6 @@ blueprint-vip/jm-b4.html,body_paragraphs,"
       <p>One more reminder: your VIP masterclass is a <strong>live session</strong>. It happens once, today, with you in the room. The Longevity Blueprint lessons continue in your learning platform.</p>
       <p>See you inside.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-b4.html,primary_cta_1,"<a class=""btn"" href=""{{zoom_link}}"">Join The Session</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b4"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-b4.html,primary_cta_2,"<a class=""btn"" href=""{{zoom_link}}"">Join The Session</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b4"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-b4.html,cta_supporting_copy,"<p class=""btn-meta"">The room opens shortly before start time.</p>","<p class=""btn-meta"">Your session is listed in your learning platform.</p>",Match new destination.
-blueprint-vip/jm-b4.html,details_table,"<div class=""details"">
       <p class=""dh"">Right Now</p>
       <table role=""presentation"">
         <tr><td class=""k"">Session</td><td class=""v"">{{session_date}}</td></tr>
@@ -492,14 +345,6 @@ blueprint-vip/jm-b4.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Where</td><td class=""v"">your learning platform</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-b4.html,small_print,"<p class=""small"">Live only. No replay. This is the email to keep open.</p>","<p class=""small"">Live session. Keep this email open; join through your learning platform.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-b4.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-b4_approved_1200x700_v5.jpg"" alt=""Starting soon hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-b4_approved_1200x700_v5.jpg"" alt=""Starting soon — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-b4.html,ac_install_comment,,"<!-- AC: LGV_Onboarding_WIP | Email 4 of 4 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-b4 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-x1.html,title,"<title>We missed you yesterday, %FIRSTNAME% &middot; Longevity Life Academy</title>","<title>We missed you, %FIRSTNAME% &middot; Longevity Life Academy</title>",Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-x1.html,preheader,"<div class=""preheader"">Your VIP seat already moved to the next session. Nothing to do.</div>","<div class=""preheader"">You were not in the room. Here is where things stand, and how to reach us.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-x1.html,alert,"<div class=""alert""><b>Session Missed</b>&middot;&nbsp; We saved your place, here is what happens now</div>","<div class=""alert""><b>Session Missed</b>&middot;&nbsp; Here is where things stand</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-x1.html,headline,<h1>We <em>missed</em> you</h1>,<h1>We <em>missed you</em></h1>,Stage/tier-specific heading.
-blueprint-vip/jm-x1.html,body_paragraphs,"
     <p>%FIRSTNAME%, life happens. You were not in the room yesterday, and that is completely fine.</p>
       <p>Here is what matters: <strong>your VIP seat is not lost</strong>. Because the masterclass is live only, with no replay, we moved your seat to the remaining session, <strong>{{session_date}}</strong>, automatically and at no cost.</p>
       <p>There is <strong>nothing you need to do</strong>. It is already yours, same Zoom link, new date.</p>
@@ -510,10 +355,6 @@ blueprint-vip/jm-x1.html,body_paragraphs,"
       <p>If you believe you did attend, <strong>reply to this email</strong> and the team will check the record.</p>
       <p>If the date simply could not work, reply and tell us; <strong>the team will look at the options with you</strong>. We would love to actually see you in the room with Julie.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-x1.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_no_show_buyers&utm_content=jm-x1"">See Session Details</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_no_show&amp;utm_content=jm-x1"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-x1.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_no_show_buyers&utm_content=jm-x1"">See Session Details</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_no_show&amp;utm_content=jm-x1"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-x1.html,cta_supporting_copy,"<p class=""btn-meta"">Your new date is already confirmed.</p>","<p class=""btn-meta"">Session information and materials inside.</p>",Match new destination.
-blueprint-vip/jm-x1.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Transferred Seat</p>
       <table role=""presentation"">
         <tr><td class=""k"">New session</td><td class=""v"">{{session_date}}</td></tr>
@@ -530,14 +371,6 @@ blueprint-vip/jm-x1.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Next</td><td class=""v"">sign in, or reply for help</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-x1.html,small_print,"<p class=""small"">If the new date cannot work for you, reply to this email and we will look at options together.</p>","<p class=""small"">Reply to this email and a real person will help.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-x1.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-x1_approved_1200x700_v5.jpg"" alt=""We missed you hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-x1_approved_1200x700_v5.jpg"" alt=""We missed you — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-x1.html,ac_install_comment,,"<!-- AC: LGV_No-Show Buyers_WIP | Email 1 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-x1 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-x2.html,title,<title>Your new session: {{session_date}} &middot; Longevity Life Academy</title>,"<title>Your session information, %FIRSTNAME% &middot; Longevity Life Academy</title>",Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-x2.html,preheader,"<div class=""preheader"">Everything you need for your rescheduled session, in one email.</div>","<div class=""preheader"">Where to find your session information and materials, and how to reach us.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-x2.html,alert,"<div class=""alert""><b>New Date Confirmed</b>&middot;&nbsp; Your rescheduled session details</div>","<div class=""alert""><b>Follow-Up</b>&middot;&nbsp; Your learning platform and how to reach us</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-x2.html,headline,<h1>Your new <em>date</em></h1>,<h1>Your session <em>information</em></h1>,Stage/tier-specific heading.
-blueprint-vip/jm-x2.html,body_paragraphs,"
     <p>%FIRSTNAME%, here is everything for your rescheduled VIP masterclass: <strong>{{session_date}}</strong>.</p>
       <p>Your Zoom link is below, <strong>the same one as before</strong>. Save this email, and join five minutes early on the day.</p>
       <p>You will also get the same reminders as everyone else: a preparation note, one the day before, and one two hours before start. Each of them carries this same link, so there is no way to lose it.</p>
@@ -548,10 +381,6 @@ blueprint-vip/jm-x2.html,body_paragraphs,"
       <p>If the team arranges anything further for your booking, the details will reach you by email and appear in your learning platform. Until then, this email does not change your booking.</p>
       <p>Your <strong>Blueprint</strong> continues as scheduled: 18 lessons, materials and recordings in your learning platform. Your VIP masterclass was the complimentary add-on.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-x2.html,primary_cta_1,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_no_show&amp;utm_content=jm-x2"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-x2.html,primary_cta_2,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_no_show&amp;utm_content=jm-x2"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-x2.html,cta_supporting_copy,"<p class=""btn-meta"">Same link, new date. Save this email.</p>","<p class=""btn-meta"">Sign in for your booking information and materials.</p>",Match new destination.
-blueprint-vip/jm-x2.html,details_table,"<div class=""details"">
       <p class=""dh"">Your Session</p>
       <table role=""presentation"">
         <tr><td class=""k"">Date</td><td class=""v"">{{session_date}}</td></tr>
@@ -566,14 +395,6 @@ blueprint-vip/jm-x2.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Where</td><td class=""v"">your learning platform</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-x2.html,small_print,"<p class=""small"">Reminders will arrive before the session, each with this link.</p>","<p class=""small"">Reply to this email with any question about your booking.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-x2.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-x2_approved_1200x700_v5.jpg"" alt=""Your new date hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-x2_approved_1200x700_v5.jpg"" alt=""Your session information — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-x2.html,ac_install_comment,,"<!-- AC: LGV_No-Show Buyers_WIP | Email 2 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-x2 -->",First-line install label for Chris (automation | position | tier | file).
-blueprint-vip/jm-x3.html,title,"<title>One seat, one session, %FIRSTNAME% &middot; Longevity Life Academy</title>","<title>Still here if you need us, %FIRSTNAME% &middot; Longevity Life Academy</title>",Stage/tier-specific subject (<=60 chars).
-blueprint-vip/jm-x3.html,preheader,"<div class=""preheader"">This is the final live date attached to your seat.</div>","<div class=""preheader"">A final follow-up on your missed session, and how to reach us.</div>",Stage/tier-specific preheader (<=100 chars).
-blueprint-vip/jm-x3.html,alert,"<div class=""alert""><b>Final Session</b>&middot;&nbsp; Your last chance to attend live</div>","<div class=""alert""><b>Final Follow-Up</b>&middot;&nbsp; Reply if you need help with your booking</div>",Remove held-seat/expiry/credit status; match stage.
-blueprint-vip/jm-x3.html,headline,"<h1>One seat, <em>one</em> session</h1>",<h1>Still <em>here</em></h1>,Stage/tier-specific heading.
-blueprint-vip/jm-x3.html,body_paragraphs,"
     <p>%FIRSTNAME%, your rescheduled VIP masterclass is on <strong>{{session_date}}</strong>, three days from now.</p>
       <p>We want to be clear and kind at the same time: this is <strong>the final live date attached to your seat</strong>. There is no replay, and no second transfer, so this is the one to protect on your calendar.</p>
       <p>The session itself is the easiest part. Show up, listen, ask your questions. Julie does the rest, and <strong>your Blueprint lessons continue as scheduled</strong>.</p>
@@ -584,10 +405,6 @@ blueprint-vip/jm-x3.html,body_paragraphs,"
       <p>Your <strong>Blueprint lessons continue as scheduled</strong>. If you would like to talk about the missed masterclass, reply to this email.</p>
       <p>We would still love to have you in the room with Julie. Whatever you decide, thank you for booking with Longevity Life Academy.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
-blueprint-vip/jm-x3.html,primary_cta_1,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_no_show&amp;utm_content=jm-x3"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-x3.html,primary_cta_2,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_no_show&amp;utm_content=jm-x3"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
-blueprint-vip/jm-x3.html,cta_supporting_copy,"<p class=""btn-meta"">Join five minutes early on the day.</p>","<p class=""btn-meta"">Sign in, or reply for help.</p>",Match new destination.
-blueprint-vip/jm-x3.html,details_table,"<div class=""details"">
       <p class=""dh"">Final Session</p>
       <table role=""presentation"">
         <tr><td class=""k"">Date</td><td class=""v"">{{session_date}}</td></tr>
@@ -604,9 +421,6 @@ blueprint-vip/jm-x3.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Help</td><td class=""v"">reply to this email</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
-blueprint-vip/jm-x3.html,small_print,"<p class=""small"">If something truly cannot move, reply to this email before the session.</p>","<p class=""small"">Reply to this email and a real person will help.</p>",Remove stale hold/expiry/credit/transfer claims.
-blueprint-vip/jm-x3.html,hero_alt_text,"<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-x3_approved_1200x700_v5.jpg"" alt=""One seat, one session hero image"">","<img class=""hero-img"" src=""https://gitteromri-ux.github.io/lla-masterclass-emails-3tier/assets/images/jm-x3_approved_1200x700_v5.jpg"" alt=""Still here — Longevity Life Academy"">",Alt text follows the new heading.
-blueprint-vip/jm-x3.html,ac_install_comment,,"<!-- AC: LGV_No-Show Buyers_WIP | Email 3 of 3 | LGV_Product_Event: Blueprint ($179x5, VIP included) | file blueprint-vip/jm-x3 -->",First-line install label for Chris (automation | position | tier | file).
 masterclass/jm-a1-1.html,title,"<title>Your seat is being held, %FIRSTNAME% &middot; Longevity Life Academy</title>",<title>One step left: choose your session date &middot; Longevity Life Academy</title>,Stage/tier-specific subject (<=60 chars).
 masterclass/jm-a1-1.html,preheader,"<div class=""preheader"">One click brings you back. Your masterclass registration is almost done.</div>","<div class=""preheader"">Your details are saved. Pick your live date with Julie and your seat is set.</div>",Stage/tier-specific preheader (<=100 chars).
 masterclass/jm-a1-1.html,alert,"<div class=""alert""><b>Seat Held</b>&middot;&nbsp; Your registration is saved and waiting</div>","<div class=""alert""><b>Almost There</b>&middot;&nbsp; Your details are saved. Next: choose your date</div>",Remove held-seat/expiry/credit status; match stage.

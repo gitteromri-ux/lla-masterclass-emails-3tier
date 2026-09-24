@@ -1,3 +1,5 @@
+> **2026-09-24 (Omri):** the Blueprint / Full course ($179 × 5) tier was removed from the email set and from the Julie page. Blueprint lines below are historical.
+
 # Julie Masterclass — 3-Tier Fact Sheet (source of truth for all email rewrites)
 
 Sources verified 2026-09-17: live page https://www.longevitylifeacademy.com/julie-masterclass/ (3-tier checkout pushed today),
