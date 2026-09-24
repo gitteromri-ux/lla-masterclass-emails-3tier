@@ -434,8 +434,8 @@ masterclass/jm-a1-1.html,body_paragraphs,"
 ","
     <p>Hi %FIRSTNAME%, you started registering for The Longevity Masterclass with Julie Gibson Clark, but have not picked your session date yet.</p>
       <p>Your details are saved. <strong>Choose your live session date</strong> on the pricing page and the rest of your booking follows in a minute.</p>
-      <p>This is <strong>60 minutes, live on Zoom</strong>, with Julie Gibson Clark teaching her complete protocol: sleep, food, training, supplements and the testing behind it. Your seat is <strong>$49, one payment</strong>, and includes a protocol summary PDF and your Certificate of Participation.</p>
-      <p>There are <strong>50 seats per session</strong>, so choose your date soon.</p>
+      <p>This is <strong>60 minutes, live on Zoom</strong>, with Julie Gibson Clark teaching her complete protocol: sleep, food, training, supplements and the testing behind it. Your seat is <strong>$49, one payment</strong>, for the full hour with Julie and her complete protocol, taught live.</p>
+      <p>Seats are allocated <strong>first come, first served</strong>, so choose your date soon.</p>
       <p>Pick whichever live date suits you; every session covers the same masterclass. From there it is a quick checkout and your seat is booked.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-a1-1.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_name_details&utm_content=jm-a1-1"">Finish My Registration</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_name_details&amp;utm_content=jm-a1-1#pricing"">Choose My Session Date</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -516,8 +516,8 @@ masterclass/jm-a1-3.html,body_paragraphs,"
       <p>If the masterclass is not for you, ignore this email and we will not nudge you about it again. No hard feelings, and the door stays open if you change your mind while seats remain. If it is, <strong>one click finishes what you started</strong>.</p>
 ","
     <p>%FIRSTNAME%, this is the last note we will send about the masterclass registration you started.</p>
-      <p>Sessions have <strong>50 seats each</strong> and they fill. Choose your date soon so the session you want is still open.</p>
-      <p>Worth saying plainly: your seat is <strong>$49, one payment</strong>, for 60 live minutes with Julie plus a protocol summary PDF and Certificate of Participation.</p>
+      <p>Seats are allocated <strong>first come, first served</strong>. Choose your date soon so the session you want is still open.</p>
+      <p>Worth saying plainly: your seat is <strong>$49, one payment</strong>, for 60 live minutes with Julie, her complete protocol taught live.</p>
       <p>If the masterclass is not for you, ignore this email and we will not nudge you about it again. If it is, <strong>choosing your date takes a minute</strong>, and the rest of the checkout follows.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-a1-3.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_name_details&utm_content=jm-a1-3"">Complete My Registration</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_name_details&amp;utm_content=jm-a1-3#pricing"">Choose My Session Date</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -555,8 +555,8 @@ masterclass/jm-a2-1.html,body_paragraphs,"
 ","
     <p>Hi %FIRSTNAME%, you chose your session, <strong>%LGVMASTERCLASSSESSIONDATE%</strong>, then left before the booking was finished.</p>
       <p>The good news: your date is chosen and your details are in. <strong>Finishing your booking takes about a minute.</strong></p>
-      <p>This is <strong>60 minutes, live on Zoom</strong>, with Julie Gibson Clark teaching her complete protocol in one sitting: sleep, food, training, the roughly $100-a-month supplement stack and the testing behind it. It is <strong>$49, one payment</strong>, and includes a protocol summary PDF and your Certificate of Participation.</p>
-      <p>Sessions have 50 seats each, so <strong>finish your booking soon</strong> while the date you chose is still open.</p>
+      <p>This is <strong>60 minutes, live on Zoom</strong>, with Julie Gibson Clark teaching her complete protocol in one sitting: sleep, food, training, the roughly $100-a-month supplement stack and the testing behind it. It is <strong>$49, one payment</strong>, for the full hour with Julie and her complete protocol, taught live.</p>
+      <p>Seats are allocated first come, first served, so <strong>finish your booking soon</strong> while the date you chose is still open.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-a2-1.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-1"">Lock In My Date</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-1#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
 masterclass/jm-a2-1.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-1"">Lock In My Date</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-1#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -593,9 +593,9 @@ masterclass/jm-a2-2.html,body_paragraphs,"
 ","
     <p>%FIRSTNAME%, your chosen session, <strong>%LGVMASTERCLASSSESSIONDATE%</strong>, is still waiting to be booked.</p>
       <p>This is a <strong>live masterclass, not a recording</strong>: Julie Gibson Clark teaching in real time, with you in the room.</p>
-      <p>Your seat is <strong>$49, one payment</strong>, including a protocol summary PDF and Certificate of Participation.</p>
+      <p>Your seat is <strong>$49, one payment</strong>, for the full 60-minute live masterclass with Julie on Zoom.</p>
       <p>Finishing your booking takes <strong>about a minute</strong>: choose your package on the pricing page and complete the checkout.</p>
-      <p>If the date no longer works, you can pick another live session on the same page. Either way, do not leave it too long: sessions have 50 seats and close when full.</p>
+      <p>If the date no longer works, you can pick another live session on the same page. Either way, do not leave it too long: seats are allocated first come, first served.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-a2-2.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-2"">Secure My Seat</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-2#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
 masterclass/jm-a2-2.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-2"">Secure My Seat</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-2#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -633,7 +633,7 @@ masterclass/jm-a2-3.html,body_paragraphs,"
     <p>%FIRSTNAME%, this is the last word about the session you chose, <strong>%LGVMASTERCLASSSESSIONDATE%</strong>, before we leave you in peace.</p>
       <p>Sessions fill, and once a session is full it closes, so please finish soon if you still want that date.</p>
       <p>Here is what stays true either way: <strong>60 minutes, live on Zoom</strong>, with Julie Gibson Clark walking through the whole routine she lives by, from first step to last. <strong>The live hour is the product</strong>; it is not a recording.</p>
-      <p>The offer is simple: <strong>$49, one payment</strong>, including a protocol summary PDF and Certificate of Participation.</p>
+      <p>The offer is simple: <strong>$49, one payment</strong>, for the full 60-minute live masterclass with Julie on Zoom.</p>
       <p>One click takes you to the pricing section; the booking itself takes about a minute.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-a2-3.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-3"">Keep My Seat</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-3#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -669,7 +669,7 @@ masterclass/jm-a3-1.html,body_paragraphs,"
     <p>Hi %FIRSTNAME%, you were one step from done. Your order and your session, <strong>%LGVMASTERCLASSSESSIONDATE%</strong>, are set up. Only the payment was not completed.</p>
       <p>It happens: a card timeout, a page closed too soon, a bank check that took a moment too long. Nothing was charged, and nothing was lost. Everything about your order is ready except the payment.</p>
       <p>The checkout is <strong>secure and takes about a minute</strong>, by card or PayPal. The moment it completes, your seat is confirmed and your confirmation follows by email.</p>
-      <p>Your order is <strong>$49, one payment</strong>: 60 minutes live with Julie, a protocol summary PDF and your Certificate of Participation.</p>
+      <p>Your order is <strong>$49, one payment</strong>: 60 minutes live with Julie on Zoom, her complete protocol taught live.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-a3-1.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-1"">Complete My Payment</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-1#pricing"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
 masterclass/jm-a3-1.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-1"">Complete My Payment</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-1#pricing"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -680,7 +680,7 @@ masterclass/jm-a3-1.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Your session</td><td class=""v"">{{session_date}}</td></tr>
         <tr><td class=""k"">Price</td><td class=""v"">$49, one payment (regular $79)</td></tr>
         <tr><td class=""k"">Payment</td><td class=""v"">not completed</td></tr>
-        <tr><td class=""k"">After class</td><td class=""v"">protocol summary and certificate</td></tr>
+        <tr><td class=""k"">After class</td><td class=""v"">her complete protocol, taught live</td></tr>
       </table>
     </div>","<div class=""details"">
       <p class=""dh"">Your Order</p>
@@ -688,7 +688,7 @@ masterclass/jm-a3-1.html,details_table,"<div class=""details"">
         <tr><td class=""k"">Your session</td><td class=""v"">%LGVMASTERCLASSSESSIONDATE%</td></tr>
         <tr><td class=""k"">Price</td><td class=""v"">$49, one payment</td></tr>
         <tr><td class=""k"">Payment</td><td class=""v"">not completed</td></tr>
-        <tr><td class=""k"">Includes</td><td class=""v"">protocol summary PDF and certificate</td></tr>
+        <tr><td class=""k"">Includes</td><td class=""v"">60-minute live masterclass with Julie</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
 masterclass/jm-a3-1.html,small_print,"<p class=""small"">Nothing has been charged. Your seat is confirmed only after payment completes.</p>","<p class=""small"">Nothing has been charged. Your seat is confirmed only after payment. All sales final at checkout.</p>",Remove stale hold/expiry/credit/transfer claims.
@@ -700,12 +700,12 @@ masterclass/jm-a3-2.html,headline,<h1>Your seat is <em>expiring</em></h1>,<h1>Yo
 masterclass/jm-a3-2.html,body_paragraphs,"
     <p>%FIRSTNAME%, your seat for <strong>{{session_date}}</strong> is still being held, but not for much longer.</p>
       <p>You did everything except the last step. Your name, your date, your order, all saved. <strong>One minute of checkout</strong> is the only thing between you and a live hour with Julie Gibson Clark.</p>
-      <p>If hesitation is about the money: it is <strong>$49 once</strong>, <strong>the launch price</strong> (regular $79). You leave with her protocol, summary and certificate.</p>
+      <p>If hesitation is about the money: it is <strong>$49 once</strong>, <strong>the launch price</strong> (regular $79). You leave with her complete protocol, taught live.</p>
       <p>Held seats expire so others can enroll, because when a session fills, it closes. Yours is close now. One more click today, and on <strong>{{session_date}}</strong> you are in the room, notebook open, taking down the protocol from the person who lives it.</p>
 ","
     <p>%FIRSTNAME%, your order for <strong>%LGVMASTERCLASSSESSIONDATE%</strong> is saved, and the payment is still waiting.</p>
       <p>You did everything except the last step. Your name, your date, your order: all saved. <strong>One minute of checkout</strong> is all that stands between you and 60 live minutes with Julie Gibson Clark.</p>
-      <p>If hesitation is about the money: it is <strong>$49 once</strong>, and you leave with her protocol, a <strong>summary PDF and certificate</strong>.</p>
+      <p>If hesitation is about the money: it is <strong>$49 once</strong>, and you leave with <strong>her complete protocol, taught live</strong>.</p>
       <p>Nothing has been charged. Pay by <strong>card or PayPal</strong>, and on %LGVMASTERCLASSSESSIONDATE% you are in the room, notebook open, taking down the protocol from the person who lives it.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-a3-2.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_no_payment&utm_content=jm-a3-2"">Finish Checkout</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_no_payment&amp;utm_content=jm-a3-2#pricing"">Complete My Order</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -716,7 +716,7 @@ masterclass/jm-a3-2.html,details_table,"<div class=""details"">
       <table role=""presentation"">
         <tr><td class=""k"">Your session</td><td class=""v"">{{session_date}}</td></tr>
         <tr><td class=""k"">Price</td><td class=""v"">$49, one payment</td></tr>
-        <tr><td class=""k"">After class</td><td class=""v"">protocol summary and certificate</td></tr>
+        <tr><td class=""k"">After class</td><td class=""v"">her complete protocol, taught live</td></tr>
         <tr><td class=""k"">Status</td><td class=""v"">expiring</td></tr>
       </table>
     </div>","<div class=""details"">
@@ -724,7 +724,7 @@ masterclass/jm-a3-2.html,details_table,"<div class=""details"">
       <table role=""presentation"">
         <tr><td class=""k"">Your session</td><td class=""v"">%LGVMASTERCLASSSESSIONDATE%</td></tr>
         <tr><td class=""k"">Price</td><td class=""v"">$49, one payment</td></tr>
-        <tr><td class=""k"">Includes</td><td class=""v"">protocol summary PDF and certificate</td></tr>
+        <tr><td class=""k"">Includes</td><td class=""v"">60-minute live masterclass with Julie</td></tr>
         <tr><td class=""k"">Payment</td><td class=""v"">not completed</td></tr>
       </table>
     </div>",Correct package/price/date rows; same row count as baseline.
@@ -742,7 +742,7 @@ masterclass/jm-a3-3.html,body_paragraphs,"
       <p>One minute. One payment. And on {{session_date}}, you are in the room with the woman who ages <strong>34% slower</strong> than her calendar, verified by DunedinPACE testing, learning the whole routine straight from her.</p>
 ","
     <p>%FIRSTNAME%, this is the final note about your unpaid order for <strong>%LGVMASTERCLASSSESSIONDATE%</strong>.</p>
-      <p>After this we will leave you in peace. Your order and date are saved and nothing has been charged, but sessions have 50 seats and close when full, so please complete it soon if you still want that date.</p>
+      <p>After this we will leave you in peace. Your order and date are saved and nothing has been charged, but seats are allocated first come, first served, so please complete it soon if you still want that date.</p>
       <p><strong>$49, one payment.</strong> Your details and chosen date are already saved, so finishing is a single step from any device: card or PayPal, about a minute.</p>
       <p>One minute. One payment. And on %LGVMASTERCLASSSESSIONDATE% you are in the room with <strong>Julie Gibson Clark</strong> for 60 live minutes, learning the whole routine straight from her.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
@@ -779,7 +779,7 @@ masterclass/jm-b1.html,body_paragraphs,"
     <p>Your seat is confirmed. On <strong>%LGVMASTERCLASSSESSIONDATE%</strong> you join Julie Gibson Clark live for 60 minutes.</p>
       <p>Here is the one thing to do right now: sign in to your <strong>learning platform</strong> at student.eteachergroup.com. That is where you join your session, and where your materials and progress live.</p>
       <p>Below you will also find The Longevity Blueprint, our complete 18-lesson course, if you want to go further after the masterclass.</p>
-      <p>The session is <strong>60 minutes, live</strong>. Julie teaches her complete protocol: sleep, food, training, supplements and testing, in one focused hour. Your seat also includes a <strong>protocol summary PDF and Certificate of Participation</strong>, and a notebook is worth having nearby.</p>
+      <p>The session is <strong>60 minutes, live</strong>. Julie teaches her complete protocol: sleep, food, training, supplements and testing, in one focused hour. She covers <strong>a lot of ground at a brisk pace</strong>, so a notebook is worth having nearby.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-b1.html,primary_cta_1,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b1"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
 masterclass/jm-b1.html,primary_cta_2,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://longevitylifeacademy.pages.dev/?enroll=1&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_onboarding&amp;utm_content=jm-b1"">Explore The Longevity Blueprint</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -960,7 +960,7 @@ masterclass/jm-x2.html,body_paragraphs,"
     <p>%FIRSTNAME%, a short follow-up after your missed session with <strong>Julie Gibson Clark</strong>.</p>
       <p>Your <strong>learning platform</strong> shows the current information for your booking, and the materials included in your package.</p>
       <p>If the team arranges anything further for your booking, the details will reach you by email and appear in your learning platform. Until then, this email does not change your booking.</p>
-      <p>Your package is <strong>The Longevity Masterclass with Julie Gibson Clark</strong>: 60 minutes live on Zoom, with a protocol summary PDF and Certificate of Participation.</p>
+      <p>Your package is <strong>The Longevity Masterclass with Julie Gibson Clark</strong>: 60 minutes live on Zoom, with Julie teaching her complete protocol.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 masterclass/jm-x2.html,primary_cta_1,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_no_show&amp;utm_content=jm-x2"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
 masterclass/jm-x2.html,primary_cta_2,"<a class=""btn"" href=""{{zoom_link}}"">Open My Zoom Link</a>","<a class=""btn"" href=""https://student.eteachergroup.com/?locale=en&amp;utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_no_show&amp;utm_content=jm-x2"">Open My Learning Platform</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -1116,7 +1116,7 @@ vip-masterclass/jm-a1-3.html,body_paragraphs,"
       <p>If the masterclass is not for you, ignore this email and we will not nudge you about it again. No hard feelings, and the door stays open if you change your mind while seats remain. If it is, <strong>one click finishes what you started</strong>.</p>
 ","
     <p>%FIRSTNAME%, this is the last note we will send about the VIP registration you started.</p>
-      <p>There are only <strong>12 VIP seats per session</strong>, and they go first. Choose your date soon while yours is still open.</p>
+      <p>VIP seats are allocated <strong>first come, first served</strong>, and they go first. Choose your date soon while yours is still open.</p>
       <p>Worth saying plainly: <strong>$79, one payment</strong>, for 90 minutes with Julie, including your private 30-minute Q&amp;A.</p>
       <p>If the masterclass is not for you, ignore this email and we will not nudge you about it again. If it is, <strong>choosing your date takes a minute</strong>, and the rest of the checkout follows.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
@@ -1156,7 +1156,7 @@ vip-masterclass/jm-a2-1.html,body_paragraphs,"
     <p>Hi %FIRSTNAME%, you chose your VIP session, <strong>%LGVMASTERCLASSSESSIONDATE%</strong>, then left before the booking was finished.</p>
       <p>The good news: your date is chosen and your details are in. <strong>Finishing your booking takes about a minute.</strong></p>
       <p>This is <strong>90 minutes with Julie in total</strong>: the 60-minute masterclass, then a private 30-minute Q&amp;A, like being in a room with Julie online. It is <strong>$79, one payment</strong>, and includes a $249 credit toward The Longevity Blueprint with code MASTERCLASS-VIP.</p>
-      <p>There are only 12 VIP seats per session, so <strong>finish your booking soon</strong> while the date you chose is still open.</p>
+      <p>VIP seats are allocated first come, first served, so <strong>finish your booking soon</strong> while the date you chose is still open.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 vip-masterclass/jm-a2-1.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-1"">Lock In My Date</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-1#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
 vip-masterclass/jm-a2-1.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-1"">Lock In My Date</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-1#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -1195,7 +1195,7 @@ vip-masterclass/jm-a2-2.html,body_paragraphs,"
       <p>This is a <strong>live masterclass, not a recording</strong>: Julie teaching in real time, then your private 30-minute Q&amp;A to ask her anything.</p>
       <p>Your VIP seat is <strong>$79, one payment</strong>, with a $249 Blueprint credit included.</p>
       <p>Finishing your booking takes <strong>about a minute</strong>: choose VIP on the pricing page and complete the checkout.</p>
-      <p>If the date no longer works, you can pick another live session on the same page. Either way, do not leave it too long: VIP has 12 seats per session and closes when full.</p>
+      <p>If the date no longer works, you can pick another live session on the same page. Either way, do not leave it too long: VIP seats are allocated first come, first served.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
 vip-masterclass/jm-a2-2.html,primary_cta_1,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-2"">Secure My Seat</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-2#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
 vip-masterclass/jm-a2-2.html,primary_cta_2,"<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&utm_medium=email&utm_campaign=lgv_abandoned_cart_course_details&utm_content=jm-a2-2"">Secure My Seat</a>","<a class=""btn"" href=""https://www.longevitylifeacademy.com/julie-masterclass/?utm_source=activecampaign&amp;utm_medium=email&amp;utm_campaign=lgv_abandoned_cart_course_details&amp;utm_content=jm-a2-2#pricing"">Finish My Booking</a>",Approved destination + AC UTM convention; stage-matched label.
@@ -1343,7 +1343,7 @@ vip-masterclass/jm-a3-3.html,body_paragraphs,"
       <p>One minute. One payment. And on {{session_date}}, you are in the room with the woman who ages <strong>34% slower</strong> than her calendar, verified by DunedinPACE testing, learning the whole routine straight from her, then asking your questions live.</p>
 ","
     <p>%FIRSTNAME%, this is the final note about your unpaid VIP order for <strong>%LGVMASTERCLASSSESSIONDATE%</strong>.</p>
-      <p>After this we will leave you in peace. Your order and date are saved and nothing has been charged, but VIP has 12 seats per session and closes when full, so please complete it soon if you still want that date.</p>
+      <p>After this we will leave you in peace. Your order and date are saved and nothing has been charged, but VIP seats are allocated first come, first served, so please complete it soon if you still want that date.</p>
       <p>$79, one payment, for 90 minutes with Julie. Your details and chosen date are saved, so finishing is a single step from any device: card or PayPal, about a minute.</p>
       <p>One minute. One payment. And on %LGVMASTERCLASSSESSIONDATE% you are in the room with <strong>Julie Gibson Clark</strong>, learning the whole routine straight from her, then your private 30-minute Q&amp;A.</p>
 ","Correct stage voice, tier content, prices, learning-platform wording; same paragraph and <strong> count as baseline."
